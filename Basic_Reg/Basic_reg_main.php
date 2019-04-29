@@ -1,5 +1,6 @@
 <?php
 include_once '../function.php';
+check_session();
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0062)http://www.webstrot.com/html/myporto/light_version/# -->

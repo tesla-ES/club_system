@@ -1,0 +1,115 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1556548845036)
++++ .idea/workspace.xml	(date 1556548068000)
+@@ -1,7 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="" />
++    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_reg_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_reg_main.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Honor/Honor_More.php" beforeDir="false" afterPath="$PROJECT_DIR$/Honor/Honor_More.php" afterDir="false" />
++    </list>
+     <ignored path="Club_System.iws" />
+     <ignored path=".idea/workspace.xml" />
+     <ignored path=".idea/dataSources.local.xml" />
+@@ -44,20 +49,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="Honor_More.php" pinned="false" current-in-tab="false">
++      <file leaf-file-name="Honor_More.php" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/Honor/Honor_More.php">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="323">
+               <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file leaf-file-name="Basic_Reg_Update.php" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="408">
+-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+             </state>
+           </provider>
+         </entry>
+@@ -141,6 +137,15 @@
+           </provider>
+         </entry>
+       </file>
++      <file leaf-file-name="Basic_Reg_View.php" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="7123">
++              <caret line="419" column="25" selection-start-line="419" selection-start-column="25" selection-end-line="419" selection-end-column="25" />
++            </state>
++          </provider>
++        </entry>
++      </file>
+       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/css/responsive.css">
+           <provider selected="true" editor-type-id="text-editor">
+@@ -325,7 +330,7 @@
+             <path>
+               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
+               <item name="club_system" type="462c0819:PsiDirectoryNode" />
+-              <item name="Basic_Reg" type="462c0819:PsiDirectoryNode" />
++              <item name="Honor" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
+@@ -411,15 +416,16 @@
+       <workItem from="1555095758132" duration="16000" />
+       <workItem from="1555437115939" duration="1570000" />
+       <workItem from="1555481192586" duration="33000" />
+-      <workItem from="1556538906296" duration="2384000" />
++      <workItem from="1556538906296" duration="1495000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="325053000" />
++    <option name="totallyTimeSpent" value="324164000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
++    <editor active="true" />
+     <layout>
+       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22474378" />
+       <window_info anchor="bottom" id="TODO" order="6" />
+@@ -465,6 +471,13 @@
+     </breakpoint-manager>
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/payment/invite_print_log.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="391">
++          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/payment/invitation_view.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="289">
+@@ -845,13 +858,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="323">
+           <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="408">
+-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+         </state>
+       </provider>
+     </entry>

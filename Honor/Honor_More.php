@@ -68,8 +68,8 @@ $query = "INSERT INTO Honor ( User_ID,Reg_Type,Year,Name,Job,No,Prints,Image )
 values ( '$User_ID','$Reg_Type','$Year','$Name','$Job','$No','$Prints','$New_Image')";
 mysqli_query($con,$query) or  die (mysqli_error($con));
 
-$query1 = "INSERT INTO Basic_reg ( User_ID,Reg_Type,Name,Job,Image,employee,Guest_No,Sec_Type,Ser,beach,valid )
-						values ( '$User_ID','$Reg_Type','$Name','$Job','$New_Image','$employee','$No','1','0','1','1')";
+$query1 = "INSERT INTO Basic_reg ( User_ID,Reg_Type,Name,Job,Image,employee,Guest_No,Sec_Type,Ser,valid )
+						values ( '$User_ID','$Reg_Type','$Name','$Job','$New_Image','$employee','$No','1','0','1')";
 mysqli_query($con,$query1) or  die (mysqli_error($con));
 
 

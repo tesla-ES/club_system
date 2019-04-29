@@ -1,0 +1,113 @@
+warning: LF will be replaced by CRLF in .idea/workspace.xml.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex d7403b3..70b5dfc 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -1,12 +1,7 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+[31m-    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">[m
+[31m-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_reg_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_reg_main.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/Honor/Honor_More.php" beforeDir="false" afterPath="$PROJECT_DIR$/Honor/Honor_More.php" afterDir="false" />[m
+[31m-    </list>[m
+[32m+[m[32m    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="" />[m
+     <ignored path="Club_System.iws" />[m
+     <ignored path=".idea/workspace.xml" />[m
+     <ignored path=".idea/dataSources.local.xml" />[m
+[36m@@ -49,7 +44,7 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="Honor_More.php" pinned="false" current-in-tab="true">[m
+[32m+[m[32m      <file leaf-file-name="Honor_More.php" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/Honor/Honor_More.php">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+             <state relative-caret-position="323">[m
+[36m@@ -58,6 +53,15 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[32m+[m[32m      <file leaf-file-name="Basic_Reg_Update.php" pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="408">[m
+[32m+[m[32m              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+       <file leaf-file-name="Honor_Add.php" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/Honor/Honor_Add.php">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[36m@@ -137,15 +141,6 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="Basic_Reg_View.php" pinned="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php">[m
+[31m-          <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="7123">[m
+[31m-              <caret line="419" column="25" selection-start-line="419" selection-start-column="25" selection-end-line="419" selection-end-column="25" />[m
+[31m-            </state>[m
+[31m-          </provider>[m
+[31m-        </entry>[m
+[31m-      </file>[m
+       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/css/responsive.css">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[36m@@ -330,7 +325,7 @@[m
+             <path>[m
+               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />[m
+               <item name="club_system" type="462c0819:PsiDirectoryNode" />[m
+[31m-              <item name="Honor" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="Basic_Reg" type="462c0819:PsiDirectoryNode" />[m
+             </path>[m
+             <path>[m
+               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />[m
+[36m@@ -416,12 +411,12 @@[m
+       <workItem from="1555095758132" duration="16000" />[m
+       <workItem from="1555437115939" duration="1570000" />[m
+       <workItem from="1555481192586" duration="33000" />[m
+[31m-      <workItem from="1556538906296" duration="1495000" />[m
+[32m+[m[32m      <workItem from="1556538906296" duration="1915000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="324164000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="324584000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />[m
+[36m@@ -471,13 +466,6 @@[m
+     </breakpoint-manager>[m
+   </component>[m
+   <component name="editorHistoryManager">[m
+[31m-    <entry file="file://$PROJECT_DIR$/payment/invite_print_log.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="391">[m
+[31m-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="file://$PROJECT_DIR$/payment/invitation_view.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="289">[m
+[36m@@ -861,5 +849,12 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="408">[m
+[32m+[m[32m          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+   </component>[m
+ </project>[m
+\ No newline at end of file[m
