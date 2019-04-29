@@ -1,0 +1,276 @@
+/* SCA RTL Styles (Temp) */
+@font-face {
+  font-family: 'arabicFont';
+  src: url('Cairo-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Cairo-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Cairo-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Cairo-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Cairo-Regular.svg') format('svg'); /* Legacy iOS */
+}
+
+*{font-family: arabicFont!important}
+.bold{font-weight:bold}
+ol{margin-right: 15px}
+ 
+/*generic*/
+.sectionTitle {border-width: 0 3px 0 0;padding-right: 35px}
+a.showMoreLink svg{transform:rotate(180deg)}
+a.showMoreLink span {float: left;margin-right: 10px}
+.AspNetPagerClass span {line-height: 1.7em}
+.SCAcustomBtn{margin-left: 10px;margin-right: 0!important}
+.emptyMsg a {margin-right: 5px} 
+
+
+/*carousel*/
+.owl-carousel .owl-nav >div:first-child {right: -45px}
+.owl-carousel .owl-nav >div:nth-child(2){left: -45px}
+.owl-carousel .owl-nav >div{transform:rotate(180deg)}
+.owl-dots {margin-right: 20px}
+.owl-dot {float:right;margin-left: 5px}
+ 
+
+/*Side Nav*/ 
+div#sideNavWrap  a >span>span {padding-right: 10px}
+div#sideNavWrap li.selected a >span>span {border-right: 3px solid #da491c}
+div#sideNavWrap > a.siteName{font-weight:bold} 
+
+/*tabs*/
+.CSACustomTabs ul.nav-tabs li:first-child {margin-left: 15px}
+
+/*News & Events Homepage*/
+.eventItemLower .dtl {border-right:3px solid #da491c;padding-right: 25px}
+.eventItem .eventItemLower .dtl div[class*="dtl"] > * {float: right;}
+.eventItem .eventItemLower .dtl div[class*="dtl"] svg{margin-left: 10px}
+.moreBigArrow div:nth-child(2):after{left: -3px;top: -22px} 
+.eventImportant{left:0}
+.eventImportant:before {content: '';width: 0;height: 0;border-top: 35px solid red;border-right: 25px solid transparent;
+    position: absolute;top:0;right: -18px}
+.eventImportant:after {content: '';width: 0;height: 0;border-bottom: 35px solid red;border-right: 25px solid transparent;
+    position: absolute;top: 5px;right: -18px}
+
+/*Main Banner*/
+.mainBannerTitle {padding-right: 20px;border-right: 3px solid #da491c}
+.mainBannerLink svg{margin-right: 20px}
+#ship{left:0%}  
+
+
+/*News Listing*/ 
+/*div[id*=ParentControlsDiv] .field {float: right}
+div[id*=ParentControlsDiv] > .field:first-child {margin-left: 15%}
+div[id*=ParentControlsDiv] .FilterActionsInner input[type="submit"], div.pnlFilter input[type="submit"]{margin-left: 10px;margin-right: 0}*/
+
+/*Events Listing*/
+/*div.pnlFilter .EventsFromDate, div.pnlFilter .EventsToDate, div.pnlFilter .EventsCategory {float: right}*/
+.EventsCategorybtn,.Resetbtn {float: right}
+.eventItem.eventItemListing .eventItemDate{font-size: 18px}
+.returnPastEvents {margin-right: 15px}
+
+
+/*News Details*/
+.newsDetailsLower >div {float: right}
+.newsDetailsLower svg{margin-left: 10px}
+.NewsDetailsItem .col-md-4.col-sm-6.col-xs-12 {padding-right: 0}
+.newsDetailsCategory span{margin-left: 5px}
+.newsDetailsDate svg {margin-left: 5px}  
+
+/*Events Details*/
+.eventDetailsInfoWrap > div:nth-child(2n){border-right:1px solid #fff}
+.eventDetailsInfoWrap svg{margin-left: 10px}
+.eventDetailsInfoWrap svg,.eventDetailsInfoWrap .bold{margin-left:10px}
+
+ /*forms*/
+.SCACustomForm .form-check{margin-left: 10px}
+.SCACustomForm .form-control{padding:2px 12px}
+.SCACustomForm .formSection > div {padding-right:25px}
+.SCACustomForm .formSection > div:first-child{padding-right:0}
+
+
+
+/*ContactUs Inner*/
+.contactUsInfoWrap svg {margin-left: 20px}
+.SCACustomCollapse .panel .panel-heading a {background: url('/Style Library/Images/arrowUp.png') left no-repeat}
+.SCACustomCollapse .panel .panel-heading a.collapsed {background: url('/Style Library/Images/arrowDwn.png') left no-repeat}
+ 
+
+/*Landing Page*/
+.SCAInner .toc-layout-main .dfwp-list >li {float: right;margin-left: 20px;margin-right: 0}
+.SCAInner .toc-layout-main .dfwp-list >li:nth-child(4n) {margin-left: 0}
+.SCAInner .toc-layout-main .dfwp-list >li>.level-header a:after{right:40%}
+.SCAInner .toc-layout-main .dfwp-list >li>.level-header:hover a:after{right:25%}
+ 
+/*SiteMap*/
+div#siteMapWrapper .toc-layout-main > ul.dfwp-list >li.level-section {float: right}
+div#siteMapWrapper .toc-layout-main > ul.dfwp-list >li.level-section > .level-header >span>a {
+	font-weight:bold!important}
+
+
+
+/*Gallery*/
+.fancybox-title.fancybox-title-inside-wrap {border-right: 3px solid #da491c}
+.galleryCustomFolder .galleryCustomFolderLogo{left:5px}
+.folderCont .mediaThumbAndDesc img{margin:27px 8px 22px 0}
+
+/*Toll Circular*/
+th.rowTitle,table.TonnageTable tbody tr:first-child >td{text-align: right}
+th.rowTitle{padding-right: 5px}
+table.TonnageTable tbody tr:first-child >td{padding-right: 30px}
+.tollFilter select{margin-left: 10px}
+.tolTabs input {padding-right: 40px}
+.tolTabs .tableTab {background:url('/Style Library/Images/calendarIco.jpg')no-repeat 58px}
+.tolTabs .barTab {background:url('/Style Library/Images/chartIco.jpg')no-repeat 100px }
+div#GraphTitle {position: relative;z-index: 9;margin-bottom: -45px}
+#dual_x_div svg g:first-of-type {direction: ltr} 
+
+
+/*Toll Calculator*/
+#calcDetails table td:nth-child(3n){text-align: right}
+
+
+/*Navigation Circular Add*/
+div[id*="divEditNavCircContainer"] input[type="checkbox"]{margin-left: 5px}
+
+
+
+/*Board Of Directors*/
+.treeWrap > .boardMember{float:right}   
+.treeWrap > .boardMember:before {right: 0}
+.boardMemberData > h2 > span,.firstMember  h2 > span {margin-left: 5px}
+.boardMemberData img {right: calc(50% - 50px)}
+.boardMemberData a,.firstMember a{text-align: left;padding-left: 20px}
+.treeWrap > .boardMember:nth-child(even) .boardMemberData{float: left}
+.treeWrap > .boardMember:nth-child(odd) .boardMemberData{float: right}
+.treeWrap.withSecond > .boardMember:nth-child(even) .boardMemberData{float: right}
+.treeWrap.withSecond > .boardMember:nth-child(odd) .boardMemberData{float: left}
+
+
+/*Tolls Homepage*/
+.tollsHalf {float: right}
+section#Tolls{background: url('/Style Library/Images/tollsBGHPAR.jpg')no-repeat center}
+section#Tolls .tollsSingleTab{border-right:3px solid #516c90}
+section#Tolls .tollsSingleTab a{padding-right: 30px}
+section#Tolls .tollsSingleTab img{left: -38px}
+.tollsCustomTabs .tollsSingleTab.active a:after {right: 0;border-right: 5px solid #da491c}
+section#Tolls .customPanel {float: left}
+section#Tolls .customPanel ul, section#Tolls .customPanel ol{text-align: right}
+section#Tolls .customPanel p{text-align:right}
+
+
+/*Search Inner*/
+.innerSplash .ms-srch-sbLarge .ms-srch-sb-searchLink {float: right}
+.ms-srch-Paging a{margin-right: 2px!important}
+
+
+
+/*Chat*/
+.chatIcon{left: 125px}
+a.chatIcon:after {padding-right:15px}
+a.chatIcon.offline:after {content: 'اترك رسالة'}
+a.chatIcon.online:after {content: 'تحدث معنا'}
+a.chatIcon:before {right: 14%}
+
+
+
+/*Advanced Search*/
+.ms-srch-sbLarge-link {margin-right: 15px!important;margin-left:0!important}
+div#SearchOptions ,div#unselShortList > #Value{float: right}
+div#OtherValue > div{float:right}
+.srch-advancedtable tr .ms-advsrchText-v1 {text-align: right}
+
+
+
+/*Daily STats*/
+.NSTitleSvg h1 {margin-right:15px}
+.NSTitleSvg.NSItem{float:right}
+.row.otherStats > .col-md-6:nth-child(2) .NSTitleSvg.NSItem {padding-right: 30px}
+.row.otherStats >div:first-child {border-left: 1px solid #fff}
+
+
+/*Water Services*/
+.singleInvoice {background:url('/Style Library/Images/invoice.png') no-repeat 1% 5%}
+div#divBillInfo{background:url('/Style Library/Images/citizen.png') no-repeat 1% 5%}
+div#divBillInfo label.bold.white,.singleInvoice label.bold.white{margin-left:5px}
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.scrollingBtns {left:25px}
+
+}
+
+
+
+
+/*PC ONLY*/
+
+@media (min-width: 1400px) {
+	#ship {left: 10%}
+}	
+
+@media (min-width: 1200px) {
+
+.careersFilter .field .validation {width: 100%;float: right;margin-right: 110px}
+
+}
+/*TABLET LANDSCAPE*/
+@media (max-width: 1199px) and (min-width: 991px) {
+}
+/*TABLET PORTRAIT*/
+@media (max-width: 990px) and (min-width: 768px) {
+
+/*Main Banner*/ 
+#ship{left:-40%} 
+
+/*News Listing*/
+/*div[id*=ParentControlsDiv] .field .col-md-1.col-sm-1.col-xs-12 {margin-right: 5%}
+div[id*=ParentControlsDiv] .field .col-md-3.col-sm-3.col-xs-9 {margin-left: 5%}*/
+
+/*EventsListing*/
+.eventItemLower .dtl{padding-right: 5px}
+
+/*Landing Page*/
+.SCAInner .toc-layout-main .dfwp-list >li:nth-child(4n) {margin-left: 20px}
+.SCAInner .toc-layout-main .dfwp-list >li:nth-child(3n) {margin-left: 0}
+
+
+/*Baord Of Directors*/
+.boardMemberData img {right: calc(50% - 40px)}
+
+/*Tolls Homepage*/
+section#Tolls .tollsSingleTab p{padding-left: 50px}
+
+}
+/*MOBILE LANDSCAPE*/
+@media (max-width: 767px) {
+
+/*generic*/
+.sectionTitle {padding-right: 10px}
+
+
+/*Main Banner*/
+.mainBannerContainer {background: url('/Style Library/Images/mainBannerBG.jpg') left no-repeat}
+
+
+/*News Listing*/
+/*(div[id*=ParentControlsDiv] .field .col-md-1.col-sm-1.col-xs-12,div[id*=ParentControlsDiv] .field .col-md-3.col-sm-3.col-xs-9{float: right})*/
+
+/*Board Of Directors*/
+.boardMemberData img {right: calc(50% - 30px)}
+div#dual_x_div #defs + rect + g+g text{direction:ltr;unicode-bidi: plaintext}
+div#dual_x_div svg g:nth-last-child(2) text{direction: rtl}
+
+
+/*Chat*/
+.chatIcon{right:10px}
+
+
+}
+/*MOBILE PORTRAIT*/
+@media (max-width: 415px) {
+
+/*generic*/
+a.showMoreLink span{margin-right: 5px}
+
+}
+/*IPHONE 5 (IF NEEDED)*/
+@media (max-width: 320px){
+}

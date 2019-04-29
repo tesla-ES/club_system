@@ -1,0 +1,38 @@
+﻿.alert-box {
+
+	border-radius:5px;
+	font-family:Tahoma,Geneva,Arial,sans-serif;
+	font-size:18px;
+	padding:16px 36px;
+	margin:10px;
+	direction: rtl;
+	width: 80%;
+}
+.alert-box span{
+	font-size:18px;
+	color: darkred;
+}
+.alert-box span {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.error {
+	background:#ffecec url('../images/error.png') no-repeat 10px 50%;
+	border:1px solid #f5aca6;
+	color: darkred;
+}
+.success {
+	color:#555;
+	background:#e9ffd9 url('../images/success.png') no-repeat 10px 50%;
+	border:1px solid #a6ca8a;
+}
+.warning {
+	color:#555;
+	background:#fff8c4 url('../images/warning.png') no-repeat 10px 50%;
+	border:1px solid #f2c779;
+}
+.notice {
+	color:#555;
+	background:#e3f7fc url('../images/notice.png') no-repeat 10px 50%;
+	border:1px solid #8ed9f6;
+}

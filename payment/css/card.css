@@ -1,0 +1,64 @@
+.fram{
+   width: 3.38in;
+   height: 2.13in;
+   border:1px solid #ffffff
+}
+.fram tbody{
+    font-size:10pt;
+    font-weight:bolder;
+    vertical-align: middle;
+	
+}
+.dependant{
+    color: #ff1213;
+    text-align: center;
+    display: table-cell;
+    border: 0px solid #ff0000 ;
+    width: 90px;
+	vertical-align: middle;
+	padding-top:6px;
+}
+.row24{
+    height: 24px;
+	padding-right:5px;
+}
+.row25{
+    height: 25px;
+	padding-right:5px;
+}
+.row26{
+    height: 26px;
+	padding-right:5px;
+}
+.row27{
+    height: 27px;
+	padding-right:5px;
+}
+
+.row28{
+    height: 28px;
+	padding-right:5px;
+}
+.row29{
+    height: 29px;
+	padding-right:5px;
+}
+
+
+.row70{
+    height: 70px;
+}
+.row72{
+    height: 72px;
+}
+.row75{
+    height: 75px;
+}
+
+.row80{
+    height: 80px;
+}
+
+.row85{
+    height: 85px;
+}
