@@ -34,24 +34,32 @@ if(valid_date($_REQUEST["Text8"])) {
     $date1 = explode("/", $_REQUEST["Text8"]); // change date format
     $b_date = $date1[2] . "-" . $date1[1] . "-" . $date1[0];// change date format
 }
+else{
+    echo "   áÇÈÏ ãä ÇÏÎÇá Şíãå ÕÍíÍå İì ÊÇÑíÎ ÇáãíáÇÏ <br>" ;
+    exit ;
+}
+//echo "b-date= " .$b_date. "<br>" ;
+
 if(valid_date($_REQUEST["Text61"])) {
     $date2 = explode("/", $_REQUEST["Text61"]); // change date format
-    $end_date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
+    $End_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
+}else{
 
+    $date2="31/12/".((int)$date1[2]+23);
 
+    $date2 = explode("/", $date2); // change date format
+    $End_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
 
 }
 
-$End_Date="";
-
 if((isset($date2))&& ($date2[2] - $date1[2] < 25) && ($Card_OK == 1)){
     $End_Date=((int)$date2[2]+$_REQUEST["Text62"])."-12-31";// change date format
+
 }
 else{
     $End_Date=((int)$date2[2])."-12-31";// change date format
 }
 $End_Date_old=((int)$date1[2]+23)."-12-31";// change date format
-
 
 ///////////////////////////////////////update function
 

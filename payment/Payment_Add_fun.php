@@ -46,6 +46,7 @@ $Member_group = mysqli_query($con,"SELECT Group_ID  FROM members Where id=$sessi
     $chk5=isset($_REQUEST["chk5"])? $_REQUEST["chk5"]:0;
     $chk6=isset($_REQUEST["chk6"])? $_REQUEST["chk6"]:0;
     $chk7=isset($_REQUEST["chk7"])? $_REQUEST["chk7"]:0;
+    $Err="";
 
 $fin=mysqli_query($con,"select * from Payment where User_ID ='$Text1'&& Reg_Type ='$Text2'&&Employee='$Employee'&& Pay_Year ='$Text33'");
 $n_res=mysqli_num_rows($fin);
@@ -121,7 +122,7 @@ $car_no=0;
 	$Text900	=	0;$car=0;
 	}
 ////////////////////////////////////////////////////////////////////////////////////////
-
+    $Invitation_val=0;
   ////////////Invitation
   if((int)$operation_type==0){
 		if (isset($_POST['chk1'])) {$Invitation_val=1;}else{$Invitation_val=0;}  

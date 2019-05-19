@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/Payment_Add_fun.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Payment_Add_fun.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +23,44 @@
     <favorites_list name="Club_System" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Payment_Add_fun.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Secondary_Reg_Update.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,10 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>label {</find>
-      <find>$Grade_Date1</find>
-      <find>profile-image center-align</find>
-      <find>item-child-right right-align</find>
       <find>owl.</find>
       <find>.btn-floating</find>
       <find>red</find>
@@ -62,6 +97,10 @@
       <find>male</find>
       <find>insert</find>
       <find>inser</find>
+      <find>$Invitation_val</find>
+      <find>$Err</find>
+      <find>$end_Date</find>
+      <find>$End_Date_old</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -105,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Reports/latancy_report.php" />
         <option value="$PROJECT_DIR$/Reports/payment.php" />
         <option value="$PROJECT_DIR$/Reports/secondary_reports.php" />
         <option value="$PROJECT_DIR$/Reports/segel.php" />
@@ -118,7 +156,6 @@
         <option value="$PROJECT_DIR$/payment/printer_log.php" />
         <option value="$PROJECT_DIR$/payment/Receipt_Print.php" />
         <option value="$PROJECT_DIR$/payment/invitation_reprint_fun.php" />
-        <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
         <option value="$PROJECT_DIR$/Reports/payment_report.php" />
         <option value="$PROJECT_DIR$/payment/Payment_List_print.php" />
         <option value="$PROJECT_DIR$/payment/Payment_List.php" />
@@ -156,6 +193,8 @@
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_reg_main.php" />
         <option value="$PROJECT_DIR$/Honor/Honor_More.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
+        <option value="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php" />
       </list>
     </option>
   </component>
@@ -184,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,12 +233,7 @@
             <path>
               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="club_system" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic_Reg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="club_system" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="Secondary_Reg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
@@ -210,13 +243,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new_Membership" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../im-ex-port" />
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
@@ -289,7 +323,9 @@
       <workItem from="1555481192586" duration="33000" />
       <workItem from="1556538906296" duration="2384000" />
       <workItem from="1556556361174" duration="6613000" />
-      <workItem from="1556571471803" duration="741000" />
+      <workItem from="1556571471803" duration="1367000" />
+      <workItem from="1556737451338" duration="128000" />
+      <workItem from="1558129144523" duration="5837000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -326,14 +362,22 @@
       <option name="project" value="LOCAL" />
       <updated>1556564071043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="delete test file">
+      <created>1556572240528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556572240528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336012000" />
+    <option name="totallyTimeSpent" value="342603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22474378" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,12 +385,12 @@
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32861635" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32861635" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32861635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,7 +447,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;" />
+    <MESSAGE value="delete test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete test file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,13 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/payment/card_reprint_fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment/card_reprint.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -436,13 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="110" column="8" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -526,13 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -689,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -745,8 +762,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Reg/ggg.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Basic_Reg/ggg.php" />
+    <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
