@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: 'arabicFont';
 	src: url('Cairo-Regular.eot'); /* IE9 Compat Modes */
@@ -10,9 +11,10 @@
 
 
 *{
-	font-family: 'arabicFont';
+	/*font-family: 'arabicFont';*/
 	font-weight: bold;
 }
+
 *:not(i){
 	font-size: 14px;
 }
@@ -285,8 +287,8 @@ div.sign{
 
 .counter{
 	width: 20px;
-	height: 30px;
-
+	height: 25px;
+	font-size:10pt;
 	color: darkred;
 	background-color: yellow;
 	border: 1px solid blue;
