@@ -26,7 +26,11 @@ if(!isset($_REQUEST['start']) || strlen($_REQUEST['start'])<1){
 
 
 $fin=mysqli_query($con,"select * from Basic_Reg");
-$n_res=mysqli_num_rows($fin);
+
+$n_res=0;
+if (!$fin || mysqli_num_rows($fin) == 0) {
+    $n_res = mysqli_num_rows($fin);
+}
 if($n_res==0){$pop=1;}else{$pop=$n_res+1;}
 
 $query = $fin;
