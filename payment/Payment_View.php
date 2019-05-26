@@ -221,7 +221,7 @@ if($Operation==1||$Operation==2){
     }
 ////////////////////////////////////////////////////////////////////////Wife_Reg Select
 
-if (!$end_date) {
+if (!isset($end_date)) {
 	$GetEndDate = mysqli_query($con,"select end_date from Basic_Reg where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && Employee='$Employee'") or die (mysqli_error($con));
 	while ($GetEndDateRes = mysqli_fetch_array($GetEndDate)) {
 		$end_date = $GetEndDateRes["end_date"];

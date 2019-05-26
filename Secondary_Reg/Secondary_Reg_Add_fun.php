@@ -15,7 +15,7 @@ include_once '../menu.php';write_menu('Secondary_Reg');
 ?>
 
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="#F2F2F2">
-<FORM NAME="FORM2"  action="http://192.168.1.3/Club_System/Secondary_Reg/Secondary_Reg_List.php" method="post">
+<FORM NAME="FORM2"  action="Secondary_Reg_List.php" method="post">
 
 
 <?PHP
@@ -30,7 +30,7 @@ $Text28=$_REQUEST["Text28"];
 $Text30=$_REQUEST["Text30"];
 $Text31=$_REQUEST["Text31"];
 $Text32=$_REQUEST["Text32"];
-$End_Date=$_REQUEST["End_Date"];
+$End_Date=$_REQUEST["Text61"];
 
 
 $sqlx ="select b_date from Basic_Reg where User_ID ='$Text1' && Reg_Type ='$Text2' && Employee='$Text5000' ";
@@ -44,7 +44,10 @@ $B_Date=substr($B_Date,0,4);
     if(valid_date($Text8)) {
         $date1 = explode("/", $Text8); // change date format
         $Text8 = $date1[2] . "-" . $date1[1] . "-" . $date1[0];// change date format
-    }
+    }else{
+        echo "áÇÈÏ ãä ÇÏÎÇá ÊÇÑíÎ ãíáÇÏ ÕÍíÍ " ;
+        exit ;
+}
 
     if((((int)$B_Date+60)<((int)$date1[2]+23))&&($Text2==1)){
     $End_Date=((int)$B_Date+60)."-12-31";

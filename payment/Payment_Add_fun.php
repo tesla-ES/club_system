@@ -210,7 +210,7 @@ if((int)$operation_type == 5){
 	if($Basic_res==0){$Err="ÇáÚÖæíÉ ÛíÑ ãæÌæÏÉ ÈÑÌÇÁ ÇáÊÃßÏ ãä ÑŞã Ãæ äæÚ ÇáÚÖæíÉ";}
 
 
-
+    $New_Card_Cost="" ;
 if($valid==0){////////////////////////ÅíŞÇİ ãÄŞÊ
 	$New_Card_Cost=(((int)$Card_Cost+(int)$tax)*((int)$Wife+(int)$Secondary_More));
 	$Reg_Main_Cost=0;
