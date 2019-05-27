@@ -166,9 +166,10 @@ $Name=$resx["Name"];
 
 
 if($Operation==1||$Operation==2){
-    $sql ="select Name,image,b_date,Job,valid,Guest_no,end_date from Basic_Reg where User_ID ='$User_ID' && Reg_Type ='$Reg_Type' && Employee='$Employee'  && rep =1 ";
-    $Total_Wife_Card=mysqli_query($con,"SELECT card_ok  FROM Wife_Reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee' ")or  die (mysqli_error($con));
-    $Total_Secondary_Card=mysqli_query($con,"SELECT  card_ok FROM secondary_reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee' ")or  die (mysqli_error($con));
+
+    $sql ="select Name,image,b_date,Job,valid,Guest_no,end_date from Basic_Reg where User_ID =$User_ID && Reg_Type =$Reg_Type && Employee=$Employee  && rep =1 ";
+    $Total_Wife_Card=mysqli_query($con,"SELECT card_ok  FROM Wife_Reg Where User_ID = $User_ID && Reg_Type =$Reg_Type && Card_OK=1 && Employee=$Employee ")or  die (mysqli_error($con));
+    $Total_Secondary_Card=mysqli_query($con,"SELECT  card_ok FROM secondary_reg Where User_ID =$User_ID && Reg_Type =$Reg_Type && Card_OK=1 && Employee=$Employee ")or  die (mysqli_error($con));
     $Total_Wife_Cards =mysqli_num_rows($Total_Wife_Card);
     $Total_Secondary_Cards =mysqli_num_rows($Total_Secondary_Card);
     $Total_Secondary_Wife_Cards=(int)$Total_Wife_Cards+(int)$Total_Secondary_Cards;
@@ -176,7 +177,7 @@ if($Operation==1||$Operation==2){
 	$Wife_Count = mysqli_query($con,$Wife_Reg_sql)or  die (mysqli_error($con));
 	//echo $Wife_Reg_sql ;
 	$secondary_Count = mysqli_query($con,"SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && rep=1 ")or  die (mysqli_error($con));
-    $sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d')  as End_Date ,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && rep=1 &&(((DATEDIFF(SYSDATE(),B_DATE))/365)>=10)";
+    $secondary_reg_sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d')  as End_Date ,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && rep=1 &&(((DATEDIFF(SYSDATE(),B_DATE))/365)>=10)";
 
     $More_Counts = mysqli_query($con,$sql)or  die (mysqli_error($con));
     $More_Count =mysqli_num_rows($More_Counts);
@@ -191,6 +192,7 @@ if($Operation==1||$Operation==2){
 }
 
 	if($Operation==8){
+
 		$sql ="select Name,image,b_date,Job,valid,Guest_no,end_date from Basic_Reg where User_ID ='$User_ID' && Reg_Type ='$Reg_Type' && Employee='$Employee'    ";
 		$Total_Wife_Card=mysqli_query($con,"SELECT card_ok  FROM Wife_Reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee'  ")or  die (mysqli_error($con));
 		$Total_Secondary_Card=mysqli_query($con,"SELECT  card_ok FROM secondary_reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee' ")or  die (mysqli_error($con));
@@ -207,6 +209,8 @@ if($Operation==1||$Operation==2){
 		$More_Counts = mysqli_query($con,$ssql)or  die (mysqli_error($con));
 		$More_Count =mysqli_num_rows($More_Counts);
 	}
+
+
     $fin2=mysqli_query($con,$sql)or  die (mysqli_error($con));
     $Basic_s=mysqli_num_rows($fin2);
     while($res2=mysqli_fetch_array($fin2))
@@ -215,7 +219,7 @@ if($Operation==1||$Operation==2){
             $image=$res2["image"];
             $b_date=$res2["b_date"];
             $Job=$res2["Job"];
-            $valid=$res2["valid"];
+            $valid = $res2["valid"];
             $Guest_no=$res2["Guest_no"];
             $end_date=$res2["end_date"];
     }
@@ -323,7 +327,7 @@ function Receipt_Print()
 	 'car2':"<?php echo $car2 ?>",
 	 'Invitation2':"<?php echo $invitation2 ?>",
 	 'Name' :"<?php echo $Name ?>",
-	 'valid':<?php echo $valid ?>,
+	 'valid':<?php if (isset($valid)){echo $valid;}else{echo 0 ;}  ?> ,
 	 'myusername':	"<?php echo $myusername ?>",
 	 'registered' :"<?php echo $registered ?>",
 	 'Group_ID' :"<?php echo $Group_ID ?>",
@@ -365,7 +369,7 @@ alert("áŞÏ Êã ØÈÇÚå ÇáÏÚæÇÊ ãäĞ Şáíá -- íÊØáÈ İÊÍå ãÌÏÏÇ ááØÈÇÚå ÕáÇÍíå ÇÚáì ");
 }
 
 function card_print() {
-	
+	alert (123);
 if(window.parent.document.getElementById("card_printed").value >0)
 {
 alert("áŞÏ Êã ØÈÇÚå ÇáßÇÑäíå ãäĞ Şáíá -- íÊØáÈ İÊÍå ãÌÏÏÇ ááØÈÇÚå ÕáÇÍíå ÇÚáì ");
@@ -373,7 +377,7 @@ alert("áŞÏ Êã ØÈÇÚå ÇáßÇÑäíå ãäĞ Şáíá -- íÊØáÈ İÊÍå ãÌÏÏÇ ááØÈÇÚå ÕáÇÍíå ÇÚáì ")
 
     $detail_link = "card_print.php";
     $param={
-	 'valid' : <?php echo $valid ?>,
+	 'valid' : <?php if (isset($valid)){echo $valid;}else{echo 0 ;}  ?>,
 	 'User_ID' : <?php echo $User_ID ?>,
 	 'Reg_Name' : "<?php echo $Reg_Name ?>",
 	 'Pay_Year' : <?php if (isset($Pay_Year)){echo $Pay_Year;}else{echo 0 ;}  ?>,
@@ -381,15 +385,15 @@ alert("áŞÏ Êã ØÈÇÚå ÇáßÇÑäíå ãäĞ Şáíá -- íÊØáÈ İÊÍå ãÌÏÏÇ ááØÈÇÚå ÕáÇÍíå ÇÚáì ")
 	 'Employee' : <?php if (isset($Employee)){echo $Employee;}else{echo 0 ;}  ?>,
 	 'Reg_Type' : <?php if (isset($Reg_Type)){echo $Reg_Type;}else{echo 0 ;}  ?>,
 	 'Name' : "<?php echo $Name ?>",
-	 'b_date' : "<?php echo $b_date ?>",
-	 'end_date' : "<?php echo $end_date ?>",
+	 'b_date' : "<?php if (isset($b_date)){echo $b_date;}else{echo '' ;}?>",
+	 'end_date' : "<?php if (isset($end_date)){echo $end_date;}else{echo '' ;}?>",
 	 'Wife_s' : <?php if (isset($Wife_s)){echo $Wife_s;}else{echo 0 ;}  ?>,
 	 'Secondary_s' : <?php if (isset($Secondary_s)){echo $Secondary_s;}else{echo 0 ;}   ?>,
 	 'Operation':<?php if (isset($Operation)&& is_numeric($Operation)){echo $Operation;}else{echo 0 ;}  ?>,
 	 'Total_Secondary_Wife_Cards' : <?php if (isset($Total_Secondary_Wife_Cards)){echo $Total_Secondary_Wife_Cards;}else{echo 0 ;}   ?>,
-	 'image' : "<?php echo $image ?>",
+	 'image' : "<?php if (isset($image)){echo $image;}else{echo '' ;}?>",
 	 'B_Y_G_T' : "<?php echo $B_Y_G_T ?>",
-	 'Job' : "<?php echo $Job ?>",
+	 'Job' : "<?php if (isset($Job)){echo $Job;}else{echo '' ;}?> ",
 	 'Guest_no' : <?php  if (isset($Guest_no)){echo $Guest_no;}else{echo 0 ;} ?>,
 	 'Receipt_No' : <?php if (isset($Receipt_No)){echo $Receipt_No;}else{echo 0 ;}  ?>,
 	 'session_user_id' : <?php echo $session_user_id ?>,

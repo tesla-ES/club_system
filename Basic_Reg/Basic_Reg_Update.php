@@ -121,7 +121,7 @@ Rowing='$Rowing',
 upd_date= sysdate(),
 upd_user = $session_user_id,
 knighthood='$knighthood'
-where (User_ID='$User_ID'&& Reg_Type='$Reg_Type'&&  Employee='$Employee') ")or die(mysqli_error($con));
+where (User_ID=$User_ID && Reg_Type=$Reg_Type &&  Employee=$Employee) ")or die(mysqli_error($con));
 
 
  // uploading files
@@ -161,6 +161,7 @@ if($_FILES["file"]["size"]>0) {
         }
     } else {
         echo "Invalid file";
+        exit ;
     }
 
     if (($_FILES["file"]["type"] == "image/gif")) {
@@ -182,13 +183,26 @@ if($_FILES["file"]["size"]>0) {
 
     if ($Reg_Type == 13 || $Reg_Type == 14 || $Reg_Type == 15 || $Reg_Type == 33 || $Reg_Type == 41 || $Reg_Type == 42) {
         if (file_exists("../Upload/" . $Curr_Year . "/" . $_FILES["file"]["name"])) {
-            unlink("../Upload/" . $Curr_Year . "/" . $second_column);
+            try
+            { unlink("../Upload/" . $Curr_Year . "/" . $second_column);
+            }  catch(Exception $e) {
+                echo 'Message: ' .$e->getMessage();
+            }
+
             rename("../Upload/" . $Curr_Year . "/" . $_FILES["file"]["name"], "../Upload/" . $Curr_Year . "/" . $second_column);
         }
         $second_column = "../Upload/" . $Curr_Year . "/" . $second_column;
     } else {
         if (file_exists("../Upload/" . $_FILES["file"]["name"])) {
-            unlink("../Upload/" . $second_column);
+            try
+            {
+                unlink("../Upload/" . $second_column);
+            }
+
+            catch(Exception $e) {
+                echo 'Message: ' .$e->getMessage();
+            }
+
             rename("../Upload/" . $_FILES["file"]["name"], "../Upload/" . $second_column);
         }
 

@@ -55,7 +55,7 @@ $end_date = $Pay_Year . "/12/31" ;
         <script>
             function card_print_log() {
                 $detail_link = "card_print_log.php";
-                $param = {'User_ID': <?php echo $User_ID ?>,'Pay_Year':<?php echo $Pay_Year ?>,'employee':<?php echo $employee ?>,'reg_type_code':<?php echo $Reg_Type ?>,'Receipt_No':<?php echo $Receipt_No ?>,'session_user':<?php echo $session_user_id ?>};
+                $param = {'User_ID': <?php echo $User_ID ?>,'Pay_Year':<?php echo $Pay_Year ?>,'employee':<?php echo $employee ?>,'reg_type_code':<?php echo $reg_type_code ?>,'Receipt_No':<?php echo $Receipt_No ?>,'session_user':<?php echo $session_user_id ?>};
                 send_post($detail_link,$param,"POST",500,500);
             }
 
@@ -280,6 +280,9 @@ $end_date = $Pay_Year . "/12/31" ;
         </Table>
         <?php
 
+        }
+
+
         //////////////////////////////////////////////////wife card print
 
         for ($i = 0; $i < $wife; $i++){
@@ -502,7 +505,7 @@ $end_date = $Pay_Year . "/12/31" ;
                 <?php
                 }
 
-     }
+
      echo "<script> window.onafterprint = function() {testPass($User_ID,$reg_type_code,$Pay_Year,$Receipt_No,$employee,$session_user);}; replaceDigits();</script>" ;
 
                 ?>

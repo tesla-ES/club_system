@@ -365,7 +365,7 @@ $continue=1;
 	//////////////////////////////////////////////////////////////////////////////////////////////check boxes
 			if (isset($_POST['chkbasic'])) {
 				$valid_Basic=1;
-				mysqli_query($con,"UPDATE Basic_Reg SET rep=1 where (User_ID='$Text1'&& Reg_Type='$Text2'&&  Employee='$Employee') ")or die(mysqli_error($con));
+				mysqli_query($con,"UPDATE Basic_Reg SET rep=1 where (User_ID= $Text1 && Reg_Type= $Text2 &&  Employee=$Employee ) ")or die(mysqli_error($con));
 			}else{
 				$valid_Basic=0;
 				mysqli_query($con,"UPDATE Basic_Reg SET rep=0 where (User_ID='$Text1'&& Reg_Type='$Text2'&&  Employee='$Employee') ")or die(mysqli_error($con));
