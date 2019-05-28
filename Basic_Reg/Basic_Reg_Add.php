@@ -1,4 +1,5 @@
 <?php
+
 $page_name=basename(__FILE__);
 include_once '../page_validation.php';
 ?>
@@ -20,14 +21,14 @@ include_once '../menu.php';write_menu('Basic_Reg')
 
 <table BORDER=1 RULES=none frame="hsides" cellspacing="1" cellpadding="1" > 
 <thead>
-»Ì«‰«  «·⁄÷ÊÌ…
+√à√≠√á√§√á√ä √á√°√ö√ñ√¶√≠√â
 </thead>
 <tbody>
 <TR  align="right" >
-<TD><FONT size="4"  >—ﬁ„ «·⁄÷Ê :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text1"style="font-size: 10pt; height:25px;width:100px" value=""  >
+<TD><FONT size="4"  >√ë√û√£ √á√°√ö√ñ√¶ :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text1"style="font-size: 10pt; height:25px;width:100px" value=""  >
 </TD>
 
-<TD ><FONT size="4"  > ‰Ê⁄ «·⁄÷ÊÌ…  :</TD><TD align="right">
+<TD ><FONT size="4"  > √§√¶√ö √á√°√ö√ñ√¶√≠√â  :</TD><TD align="right">
 	
 	<select name="Text2" style="font-size: 10pt; height:25px;width:100px" value="" >
 			
@@ -44,7 +45,7 @@ include_once '../menu.php';write_menu('Basic_Reg')
 ?>
 </select></TD>
 
-<TD ><FONT size="4"  >  ‰Ê⁄ «·√⁄»«¡  :</TD><TD align="right">
+<TD ><FONT size="4"  >  √§√¶√ö √á√°√É√ö√à√á√Å  :</TD><TD align="right">
 
 	<select name="Text3" style="font-size: 10pt; height:25px;width:100px" value="">
 			
@@ -64,29 +65,29 @@ $result1 = mysqli_query($con,"SELECT Code,Name FROM secondary_type ORDER BY Code
 
 </TR>
 
-<TD><FONT size="4"  > —ﬁ„ «·Ê«·œ  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text4" style="font-size: 10pt; height:25px;width:100px" value="" ></TD>
+<TD><FONT size="4"  > √ë√û√£ √á√°√¶√á√°√è  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text4" style="font-size: 10pt; height:25px;width:100px" value="" ></TD>
 
-<TD><FONT size="4"  >* ⁄«„·/„ÊŸ›  :</TD><TD align="right">
+<TD><FONT size="4"  >* √ö√á√£√°/√£√¶√ô√ù  :</TD><TD align="right">
 	<select name="Text5" style="font-size: 10pt; height:25px;width:100px" value="">
-		<option value="0">⁄«„·</option>
-		<option value="1">„ÊŸ›</option>
-		<option value="2">„⁄«‘« </option>
-		<option value="3">„ƒÂ·« </option>
-		<option value="4">⁄ﬁœ</option>
-		<option value="5">„⁄«—</option>
+		<option value="0">√ö√á√£√°</option>
+		<option value="1">√£√¶√ô√ù</option>
+		<option value="2">√£√ö√á√î√á√ä</option>
+		<option value="3">√£√Ñ√•√°√á√ä</option>
+		<option value="4">√ö√û√è</option>
+		<option value="5">√£√ö√á√ë</option>
 
 </select></TD>
 
 
-<TD><FONT size='4'  > ⁄œœ «·÷ÌÊ›  : <INPUT TYPE='TEXT' NAME='Text60' style='font-size: 10pt; height:25px;width:50px' value=''></TD>
+<TD><FONT size='4'  > √ö√è√è √á√°√ñ√≠√¶√ù  : <INPUT TYPE='TEXT' NAME='Text60' style='font-size: 10pt; height:25px;width:50px' value=''></TD>
 <td  align='right' >	<B>
-<FONT size='5'> ‘«ÿÏ¡  : <INPUT TYPE='checkbox' NAME='chk2' style='font-size: 14pt; height:25px;width:100px'></TD>
-<TD ><FONT size='5'> ‘—«⁄  : <INPUT TYPE='checkbox' NAME='chk3' style='font-size: 14pt; height:25px;width:100px' ></TD>
-<TD ><FONT size='5'> ÃÊ·›  : <INPUT TYPE='checkbox' NAME='chk4' style='font-size: 14pt; height:25px;width:100px'  ></TD>
+<FONT size='5'> √î√á√ò√¨√Å  : <INPUT TYPE='checkbox' NAME='chk2' style='font-size: 14pt; height:25px;width:100px'></TD>
+<TD ><FONT size='5'> √î√ë√á√ö  : <INPUT TYPE='checkbox' NAME='chk3' style='font-size: 14pt; height:25px;width:100px' ></TD>
+<TD ><FONT size='5'> √å√¶√°√ù  : <INPUT TYPE='checkbox' NAME='chk4' style='font-size: 14pt; height:25px;width:100px'  ></TD>
 </td><TR  align='right' >
-<TD ><FONT size='5'>  ‰”  : <INPUT TYPE='checkbox' NAME='chk5' style='font-size: 14pt; height:25px;width:100px'   ></TD>
-<TD ><FONT size='5'> ÃœÌ› : <INPUT TYPE='checkbox' NAME='chk6' style='font-size: 14pt; height:25px;width:100px'   ></TD>
-<TD ><FONT size='5'>›—Ê”Ì… : <INPUT TYPE='checkbox' NAME='chk7' style='font-size: 14pt; height:25px;width:100px'   ></TD>
+<TD ><FONT size='5'> √ä√§√ì  : <INPUT TYPE='checkbox' NAME='chk5' style='font-size: 14pt; height:25px;width:100px'   ></TD>
+<TD ><FONT size='5'>√ä√å√è√≠√ù : <INPUT TYPE='checkbox' NAME='chk6' style='font-size: 14pt; height:25px;width:100px'   ></TD>
+<TD ><FONT size='5'>√ù√ë√¶√ì√≠√â : <INPUT TYPE='checkbox' NAME='chk7' style='font-size: 14pt; height:25px;width:100px'   ></TD>
 </B></TR>
 
 
@@ -95,108 +96,108 @@ $result1 = mysqli_query($con,"SELECT Code,Name FROM secondary_type ORDER BY Code
 	
 	<table BORDER=1 RULES=NONE FRAME="hsides" width=100%>
 		<thead>
-		«·»Ì«‰«  «·‘Œ’Ì…
+		√á√°√à√≠√á√§√á√ä √á√°√î√é√ï√≠√â
 		</thead>
 	<TR  align="middle">
-<TD><font color="red" size="4"  > *«·≈”„  : </TD><TD align="right"><INPUT TYPE="TEXT" required  NAME="Text6" style="font-size: 10pt; height:25px;width:200px " value="" maxlength="<?php echo $max_length?>" size="<?php echo $max_length?>" onkeyup="textCounter(this,'counter',<?php echo $max_length?>)"><input type="text" readonly size="2" maxlength="2" class ="counter" id="counter" value="<?php echo $max_length?>"></TD>
-<TD><font color="red" size="4"  > * «—ÌŒ «·„Ì·«œ  :</TD><TD align="right">
+<TD><font color="red" size="4"  > *√á√°√Ö√ì√£  : </TD><TD align="right"><INPUT TYPE="TEXT" required  NAME="Text6" style="font-size: 10pt; height:25px;width:200px " value="" maxlength="<?php echo $max_length?>" size="<?php echo $max_length?>" onkeyup="textCounter(this,'counter',<?php echo $max_length?>)"><input type="text" readonly size="2" maxlength="2" class ="counter" id="counter" value="<?php echo $max_length?>"></TD>
+<TD><font color="red" size="4"  > *√ä√á√ë√≠√é √á√°√£√≠√°√á√è  :</TD><TD align="right">
 	<input type="text" name="Text8"  required style="font-size: 10pt; height:25px;width:80px" value="">
 		</TD>
 </TR>
 	<TR align="middle">
-<TD><FONT size="4"  > «·‰Ê⁄   :</TD><TD align="right">
+<TD><FONT size="4"  > √á√°√§√¶√ö   :</TD><TD align="right">
 	<select name="Text9" style="font-size: 10pt; height:25px;width:100px" value="">
-		<option value="1">–ﬂ—</option>
-		<option value="2">√‰ÀÏ</option>
+		<option value="1">√ê√ü√ë</option>
+		<option value="2">√É√§√ã√¨</option>
 			</select></TD>
 
-<TD><FONT size="4"  > ÃÂ… «·„Ì·«œ  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text10" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
-<TD><FONT size="4"  > «·Ã‰”Ì…  :</TD><TD align="right">
+<TD><FONT size="4"  > √å√•√â √á√°√£√≠√°√á√è  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text10" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
+<TD><FONT size="4"  > √á√°√å√§√ì√≠√â  :</TD><TD align="right">
 	<select name="Text11" style="font-size: 10pt; height:25px;width:100px" value="">
-		<option value="0">„’—Ï</option>
-		<option value="1">√Œ—Ï</option>
+		<option value="0">√£√ï√ë√¨</option>
+		<option value="1">√É√é√ë√¨</option>
 	</select></TD>
 
 </TR>
 	<TR  align="middle">
-<TD><FONT size="4"  > «·„ƒÂ·  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text12" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
+<TD><FONT size="4"  > √á√°√£√Ñ√•√°  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text12" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
 
-<TD><FONT size="4"  >  «—ÌŒ «·Õ’Ê· ⁄·Ï «·„ƒÂ·  :</TD><TD align="right">
+<TD><FONT size="4"  > √ä√á√ë√≠√é √á√°√ç√ï√¶√° √ö√°√¨ √á√°√£√Ñ√•√°  :</TD><TD align="right">
 			<input type="text" name="Text13" style="font-size: 10pt; height:25px;width:80px" value="">
 
 		</TD>
 
-<TD><font color="red" size="4"  > *«·ÊŸÌ›…  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text14" required style="font-size: 10pt; height:25px;width:200px" value="" maxlength="<?php echo $max_length?>" size="<?php echo $max_length?>" onkeyup="textCounter(this,'job_counter',<?php echo $max_length?>)"><input type="text" readonly size="2" maxlength="2" class ="counter" id="job_counter" value="<?php echo $max_length?>"></TD>
+<TD><font color="red" size="4"  > *√á√°√¶√ô√≠√ù√â  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text14" required style="font-size: 10pt; height:25px;width:200px" value="" maxlength="<?php echo $max_length?>" size="<?php echo $max_length?>" onkeyup="textCounter(this,'job_counter',<?php echo $max_length?>)"><input type="text" readonly size="2" maxlength="2" class ="counter" id="job_counter" value="<?php echo $max_length?>"></TD>
 </TR>
 	<TR  align="middle">
-<TD><FONT size="4"  > ÃÂ… «·⁄„·  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text15" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
+<TD><FONT size="4"  > √å√•√â √á√°√ö√£√°  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text15" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
 
-<TD><FONT size="4"  >  ·Ì›Ê‰ «·⁄„·  :</TD><TD align="right"><INPUT TYPE="TEXT"  NAME="Text16" style="font-size: 10pt; height:25px;width:150px" value=""></TD>
+<TD><FONT size="4"  > √ä√°√≠√ù√¶√§ √á√°√ö√£√°  :</TD><TD align="right"><INPUT TYPE="TEXT"  NAME="Text16" style="font-size: 10pt; height:25px;width:150px" value=""></TD>
 
-<TD><FONT size="4" color ="red"  > * ·Ì›Ê‰ «·„‰“· :</TD><TD align="right"><INPUT TYPE="TEXT" required NAME="Text17" style="font-size: 10pt; height:25px;width:150px" value=""></TD>
+<TD><FONT size="4" color ="red"  > *√ä√°√≠√ù√¶√§ √á√°√£√§√í√° :</TD><TD align="right"><INPUT TYPE="TEXT" required NAME="Text17" style="font-size: 10pt; height:25px;width:150px" value=""></TD>
 </TR>
 	<TR  align="middle">
-<TD><FONT size="4"  > «·⁄‰Ê«‰  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text18" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
+<TD><FONT size="4"  > √á√°√ö√§√¶√á√§  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text18" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
 
-<TD><FONT size="4"  > «·Õ«·… «·≈Ã „«⁄Ì…  :</TD><TD align="right">
+<TD><FONT size="4"  > √á√°√ç√á√°√â √á√°√Ö√å√ä√£√á√ö√≠√â  :</TD><TD align="right">
 	<select name="Text19" style="font-size: 10pt; height:25px;width:100px" value="">
 
 
 
-		<option value="0">√—„· / „ÿ·ﬁ</option>
-		<option value="1">„ “ÊÃ</option>
-		<option value="2">„ “ÊÃ Ê Ì⁄Ê·</option>
-		<option value="3">√⁄“»</option></select></TD>
+		<option value="0">√É√ë√£√° / √£√ò√°√û</option>
+		<option value="1">√£√ä√í√¶√å</option>
+		<option value="2">√£√ä√í√¶√å √¶ √≠√ö√¶√°</option>
+		<option value="3">√É√ö√í√à</option></select></TD>
 			</select></TD>
 			
 
 
-<TD><FONT size="4"  >  «—ÌŒ «·ﬁ—«—  :</TD><TD align="right">
+<TD><FONT size="4"  > √ä√á√ë√≠√é √á√°√û√ë√á√ë  :</TD><TD align="right">
 	<input type="text" name="Text20" style="font-size: 10pt; height:25px;width:80px" value="">
 
 	</TD>
 </TR>
 	<TR  align="middle">
-<TD ><FONT size="4"  >  ÕﬁÌﬁ «·‘Œ’Ì…  :</TD><TD align="right">
+<TD ><FONT size="4"  > √ä√ç√û√≠√û √á√°√î√é√ï√≠√â  :</TD><TD align="right">
 	<select name="Text21" style="font-size: 10pt; height:25px;width:100px" value="">
 
 				
-				<option value="0">»ÿ«ﬁ… ‘Œ’Ì…</option>
-				<option value="1">»ÿ«ﬁ… ⁄«∆·Ì…</option>	
+				<option value="0">√à√ò√á√û√â √î√é√ï√≠√â</option>
+				<option value="1">√à√ò√á√û√â √ö√á√Ü√°√≠√â</option>	
 
 
 </select></TD>
 
 
-<TD ><FONT size="4"  > —ﬁ„  ÕﬁÌﬁ «·‘Œ’Ì…  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text22" style="font-size: 10pt; height:25px;width:100px" value=""></TD>
+<TD ><FONT size="4"  > √ë√û√£ √ä√ç√û√≠√û √á√°√î√é√ï√≠√â  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text22" style="font-size: 10pt; height:25px;width:100px" value=""></TD>
 
-<TD ><FONT size="4"  >  «—ÌŒ ’œÊ—  ÕﬁÌﬁ «·‘Œ’Ì…  :</TD><TD align="right">
+<TD ><FONT size="4"  > √ä√á√ë√≠√é √ï√è√¶√ë √ä√ç√û√≠√û √á√°√î√é√ï√≠√â  :</TD><TD align="right">
 		<input type="text" name="Text23" style="font-size: 10pt; height:25px;width:65px" value="">
 
 	</TD>
 
 </TR>
 		<TR   align="middle">
-	<TD><FONT size="4"  > ÃÂ… ≈’œ«—  ÕﬁÌﬁ «·‘Œ’Ì…  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text24" style="font-size: 10pt; height:25px;width:100px" value=""></TD>
+	<TD><FONT size="4"  > √å√•√â √Ö√ï√è√á√ë √ä√ç√û√≠√û √á√°√î√é√ï√≠√â  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text24" style="font-size: 10pt; height:25px;width:100px" value=""></TD>
 </TR>
 	
 	</Table>
 		<table BORDER=1 RULES=NONE FRAME="hsides">
 	<TR  align="middle">
-<TD><FONT size="4"  > √Œ— ”‰… ”œœ ⁄‰Â«  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text25" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
+<TD><FONT size="4"  > √É√é√ë √ì√§√â √ì√è√è √ö√§√•√á  :</TD><TD align="right"><INPUT TYPE="TEXT" NAME="Text25" style="font-size: 10pt; height:25px;width:200px" value=""></TD>
 
-<TD><FONT size="4"  > Õ«·… «·⁄÷ÊÌ…  :</TD><TD align="right">
+<TD><FONT size="4"  > √ç√á√°√â √á√°√ö√ñ√¶√≠√â  :</TD><TD align="right">
 	<select name="Text26" style="font-size: 10pt; height:25px;width:100px" value="">
 
 			
-				<option value="1">‰‘ÿ…</option>
-				<option value="0">≈Ìﬁ«› „ƒﬁ </option>
-				<option value="2">≈Ìﬁ«› œ«∆„</option>
+				<option value="1">√§√î√ò√â</option>
+				<option value="0">√Ö√≠√û√á√ù √£√Ñ√û√ä</option>
+				<option value="2">√Ö√≠√û√á√ù √è√á√Ü√£</option>
 			</select></TD>
 
 </TR>
 	<TR align="middle">
-<TD><FONT size="4"  > „·«ÕŸ«   :</TD><TD align="right">
+<TD><FONT size="4"  > √£√°√á√ç√ô√á√ä  :</TD><TD align="right">
 	<textarea rows="5" cols="20" style="font-size: 10pt; height:50px;width:200px" NAME="Text27" ></textarea>
 </TD>
 </table>
