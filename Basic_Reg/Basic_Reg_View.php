@@ -201,8 +201,8 @@ echo"</select></TD>
 		«·»Ì«‰«  «·‘Œ’Ì…
 		</thead>
 	    <TR  align='right'>
-        <TD><FONT size='4'  > «·≈”„  : <INPUT TYPE='TEXT' NAME='Text6' id='Text6' style='font-size: 10pt; height:25px;width:200px' value='$pop5' maxlength='$max_length' size='$max_length' onkeyup=textCounter(this,'counter',$max_length)><input type='text' class='counter'  readonly size='2' maxlength='2' id='counter' value='$max_length'></TD>
-        <TD><FONT size='4'  >  «—ÌŒ «·„Ì·«œ  : <input type='text' name='Text8' style='font-size: 10pt; height:25px;width:80px' value='$pop7'></TD
+        <TD><FONT size='4'  > «·≈”„  : <INPUT TYPE='TEXT' NAME='Text6' id='Text6'  required style='font-size: 10pt; height:25px;width:200px' value='$pop5' maxlength='$max_length' size='$max_length' onkeyup=textCounter(this,'counter',$max_length)><input type='text' class='counter'  readonly size='2' maxlength='2' id='counter' value='$max_length'></TD>
+        <TD><FONT size='4'  >  «—ÌŒ «·„Ì·«œ  : <input type='text' name='Text8' required style='font-size: 10pt; height:25px;width:80px' value='$pop7'></TD
       </TR>
       
 	  <TR  align='right'>

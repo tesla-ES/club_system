@@ -64,7 +64,8 @@ $pop29=$res["Work"];
 $pop30=$res["Married"];
 $pop31=$res["Card_OK"];
 $pop60=$res["End_Date1"];
- $pop61=1;
+/////update default value
+ $pop61=0;
 
 }
 
@@ -143,7 +144,7 @@ echo"
 		</Font>
 		</thead>
 	<TR  align='right'>
-<TD><FONT size='4'  > «·≈”„  : <INPUT TYPE='TEXT' NAME='Text6'  id='Text6' style='font-size: 10pt; height:25px;width:200px' value ='$pop5' maxlength='$max_length' size='$max_length' onkeyup=textCounter(this,'counter',$max_length)><input type='text' readonly size='2' maxlength='2' id='counter' class='counter' value='$max_length'></TD>
+<TD><FONT size='4'  > «·≈”„  : <INPUT TYPE='TEXT' NAME='Text6'  id='Text6' style='font-size: 10pt; height:25px;width:200px' value ='$pop5' maxlength='$max_length' size='$max_length' onkeyup=textCounter(this,'counter',$max_length)><input type='text' readonly size='2' maxlength='2' id='counter' value='$max_length'></TD>
 
 
 <TD><FONT size='4'  >  «—ÌŒ «·„Ì·«œ  : 
@@ -212,15 +213,18 @@ echo"
 
 		
 				echo"</TD>";
+				///disable end_date field
 	echo"			
 	<TD><FONT size='4'  > Ì‰ ÂÏ ›Ï  : 
-		<input type='text' name='Text61' style='font-size: 10pt; padding-top:5px;height:25px;width:70px' value='$pop60'>
+	
+		<input type='text' name='Text61'  disabled style='font-size: 10pt; padding-top:5px;height:25px;width:70px' value='$pop60'>
 		</TD>
 		<TD>";
 		 if($card_release_ok==1){
 		echo"<FONT size='2'  > ≈” À‰«¡ :
 		<input type='number' name='Text62' style='font-size: 10pt; padding-top:5px;height:25px;width:30px'  min=0 max=1  value = '$pop61'> ”‰…
 		";
+		
 		}echo"
 		</TD>
 					
