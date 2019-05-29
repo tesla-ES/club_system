@@ -38,6 +38,7 @@ IF($operation_type){
 <body>
 
 <?php
+todo  check var value
 $Total_qist_1 = "";
 $Total_qist_2 = "";
 
