@@ -10,7 +10,7 @@
 
 <?php
 
-$employee_type = "";
+$employee_type = ""
 $employee_type =asignValue($_REQUEST['employee_type'],false);
 $operation_type =asignValue($_REQUEST['operation_type'],false);
 $Membership_type =asignValue($_REQUEST['Membership_type'],false);

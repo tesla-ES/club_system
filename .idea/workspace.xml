@@ -39,8 +39,8 @@
       <file leaf-file-name="payment_Latency.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Reports/payment_Latency.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="66">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -70,14 +70,14 @@
       <find>counter</find>
       <find>echo</find>
       <find>$New_Card_Cost</find>
-      <find />
+      <find>echo $</find>
       <find>$End_Date_old</find>
       <find>$end_date</find>
       <find>en</find>
       <find>text8</find>
       <find>$End_Date</find>
       <find>query</find>
-      <find />
+      <find>update basic_reg</find>
       <find>$job</find>
       <find>card_print</find>
       <find>$valid</find>
@@ -102,13 +102,13 @@
       <replace>isset($_REQUEST[&quot;</replace>
       <replace>&quot;]?$_REQUEST[&quot;&quot;]:&quot;&quot;</replace>
       <replace>)?</replace>
-      <replace />
+      <replace>' :</replace>
       <replace>$</replace>
-      <replace />
+      <replace>isset($_REQUEST[&quot;&quot;])?$_REQUEST[&quot;&quot;]:&quot;&quot; ;</replace>
       <replace>:</replace>
       <replace>,</replace>
       <replace>$_REQUEST</replace>
-      <replace />
+      <replace>)? $_REQUEST[&quot;start&quot;]:0 ;</replace>
       <replace>#</replace>
       <replace>&quot;&quot;</replace>
       <replace>lightbulb</replace>
@@ -315,7 +315,7 @@
       <workItem from="1558129144523" duration="13439000" />
       <workItem from="1558923193341" duration="5094000" />
       <workItem from="1559046939023" duration="45000" />
-      <workItem from="1559127922718" duration="2760000" />
+      <workItem from="1559127922718" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -436,11 +436,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559130398616</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="defined variable total_qist_1">
+      <created>1559130954525</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559130954525</updated>
+    </task>
+    <task id="LOCAL-00019" summary="defined variable total_qist_1">
+      <created>1559131013085</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559131013085</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358104000" />
+    <option name="totallyTimeSpent" value="358255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -904,8 +918,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/payment_Latency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="66">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
