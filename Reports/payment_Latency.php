@@ -39,6 +39,7 @@ IF($operation_type){
 
 <?php
 $Total_qist_1 = "";
+$Total_qist_2 = "";
 
 $operation_type="";
 report_header();
