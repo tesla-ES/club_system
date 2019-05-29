@@ -39,8 +39,8 @@
       <file leaf-file-name="payment_Latency.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Reports/payment_Latency.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="226">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -70,14 +70,14 @@
       <find>counter</find>
       <find>echo</find>
       <find>$New_Card_Cost</find>
-      <find>echo $</find>
+      <find />
       <find>$End_Date_old</find>
       <find>$end_date</find>
       <find>en</find>
       <find>text8</find>
       <find>$End_Date</find>
       <find>query</find>
-      <find>update basic_reg</find>
+      <find />
       <find>$job</find>
       <find>card_print</find>
       <find>$valid</find>
@@ -102,13 +102,13 @@
       <replace>isset($_REQUEST[&quot;</replace>
       <replace>&quot;]?$_REQUEST[&quot;&quot;]:&quot;&quot;</replace>
       <replace>)?</replace>
-      <replace>' :</replace>
+      <replace />
       <replace>$</replace>
-      <replace>isset($_REQUEST[&quot;&quot;])?$_REQUEST[&quot;&quot;]:&quot;&quot; ;</replace>
+      <replace />
       <replace>:</replace>
       <replace>,</replace>
       <replace>$_REQUEST</replace>
-      <replace>)? $_REQUEST[&quot;start&quot;]:0 ;</replace>
+      <replace />
       <replace>#</replace>
       <replace>&quot;&quot;</replace>
       <replace>lightbulb</replace>
@@ -315,7 +315,7 @@
       <workItem from="1558129144523" duration="13439000" />
       <workItem from="1558923193341" duration="5094000" />
       <workItem from="1559046939023" duration="45000" />
-      <workItem from="1559127922718" duration="2214000" />
+      <workItem from="1559127922718" duration="2760000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -429,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559129439688</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="defined variable total_qist_1">
+      <created>1559130398616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559130398616</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357558000" />
+    <option name="totallyTimeSpent" value="358104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -539,7 +546,8 @@
     <MESSAGE value="update check b_date where update" />
     <MESSAGE value="update check b_date &amp; name where retrive" />
     <MESSAGE value="handle end_date and disable it" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle end_date and disable it" />
+    <MESSAGE value="defined variable total_qist_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="defined variable total_qist_1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -812,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -894,10 +895,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/payment_Latency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="226">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>

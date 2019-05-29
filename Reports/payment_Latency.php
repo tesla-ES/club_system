@@ -38,6 +38,9 @@ IF($operation_type){
 <body>
 
 <?php
+$Total_qist_1 = "";
+$employee_type = "";
+$operation_type="";
 report_header();
 ?>
 
@@ -48,7 +51,9 @@ report_header();
 </div>
 <hr>
  <?php
- $Total_qist_1 = "";
+
+
+
 $Get_Count_sql="select count(*) as record_count from (
 select user_id,reg_type,employee,total as qist_1 , pay_date as  qist_1_date ,0 as qist_2, DATE_ADD(pay_date, INTERVAL 6 MONTH)    as  qist_2_date
 from payment
