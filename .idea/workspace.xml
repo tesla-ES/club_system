@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Basic_Reg_Update.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">
+      <file leaf-file-name="Basic_Reg_View.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="321" column="4" selection-start-line="321" selection-start-column="4" selection-end-line="321" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#B#0;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#TR#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hello</find>
       <find>.main-slider .item-child-left</find>
       <find>item-child-left</find>
       <find>$Social_Date</find>
@@ -72,6 +87,7 @@
       <find>$valid</find>
       <find>rep</find>
       <find>$Reg_Name</find>
+      <find>required</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -150,7 +166,6 @@
         <option value="$PROJECT_DIR$/JS/custom.js" />
         <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/fontawesome/css/all.css" />
-        <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/Login/main_login.php" />
@@ -167,6 +182,7 @@
         <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
         <option value="$PROJECT_DIR$/payment/Payment_View.php" />
         <option value="$PROJECT_DIR$/payment/card_print.php" />
+        <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php" />
       </list>
     </option>
   </component>
@@ -226,18 +242,19 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\club_system\Basic_Reg" />
+      <recent name="F:\app\ahmed\wamp\www\club_system\QR5" />
+      <recent name="F:\app\ahmed\wamp\www\club_system" />
+      <recent name="C:\AppServ\www\Club_System\Reports" />
+      <recent name="C:\AppServ\www\Club_System\Login" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\app\ahmed\wamp\www\club_system\JS" />
       <recent name="F:\app\ahmed\wamp\www\club_system\Basic_Reg" />
       <recent name="F:\app\ahmed\wamp\www\club_system\css" />
       <recent name="F:\app\ahmed\wamp\www\club_system\js" />
       <recent name="F:\app\ahmed\wamp\www\club_system\Reports\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\app\ahmed\wamp\www\club_system\QR5" />
-      <recent name="F:\app\ahmed\wamp\www\club_system" />
-      <recent name="C:\AppServ\www\Club_System\Reports" />
-      <recent name="C:\AppServ\www\Club_System\Login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +317,7 @@
       <workItem from="1558129144523" duration="13439000" />
       <workItem from="1558923193341" duration="5094000" />
       <workItem from="1559046939023" duration="45000" />
-      <workItem from="1559127922718" duration="955000" />
+      <workItem from="1559127922718" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -393,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559128788648</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update check b_date where update">
+      <created>1559128936116</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559128936116</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356299000" />
+    <option name="totallyTimeSpent" value="356691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -500,7 +524,9 @@
     <MESSAGE value="comminting print SQl statment in Payment_View.php" />
     <MESSAGE value="solving bug in add new secondy" />
     <MESSAGE value="solving bug in add new club member with member_type  in(2,36,41,42)" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving bug in add new club member with member_type  in(2,36,41,42)" />
+    <MESSAGE value="update check b_date where update" />
+    <MESSAGE value="update check b_date &amp; name where retrive" />
+    <option name="LAST_COMMIT_MESSAGE" value="update check b_date &amp; name where retrive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -667,13 +693,6 @@
     <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_img_Upload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7123">
-          <caret line="419" column="25" selection-start-line="419" selection-start-column="25" selection-end-line="419" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -838,8 +857,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="231">
+          <caret line="169" column="51" lean-forward="true" selection-start-line="169" selection-start-column="51" selection-end-line="169" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="321" column="4" selection-start-line="321" selection-start-column="4" selection-end-line="321" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#B#0;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#TR#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
