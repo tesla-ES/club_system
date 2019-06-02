@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/payment_Latency.php" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/payment_Latency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/Payment_Add_fun.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Payment_Add_fun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/Payment_View.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Payment_View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/card_print.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/card_print.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,24 +26,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Secondary_Reg_View.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php">
+      <file leaf-file-name="Payment_View.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/Payment_View.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3021">
-              <caret line="218" column="46" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="46" />
+            <state relative-caret-position="75">
+              <caret line="395" column="28" lean-forward="true" selection-start-line="395" selection-start-column="28" selection-end-line="395" selection-end-column="28" />
               <folding>
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#1;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#2;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#FONT#0;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#FONT#0;n#TD#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#B#0;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#FONT#0;n#TD#0;n#TR#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment_Latency.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Reports/payment_Latency.php">
+      <file leaf-file-name="Payment_Add_fun.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="228">
+              <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card_reprint.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/card_reprint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card_print.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/card_print.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="417" column="29" lean-forward="true" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -56,21 +93,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$Social_Date</find>
-      <find>$Social_Date1</find>
-      <find>$Hire_date1</find>
-      <find>#testomonial-carousel</find>
-      <find>male</find>
-      <find>insert</find>
-      <find>inser</find>
-      <find>$Invitation_val</find>
-      <find>$Err</find>
       <find>$end_Date</find>
       <find>.counter</find>
       <find>counter</find>
       <find>echo</find>
       <find>$New_Card_Cost</find>
-      <find>echo $</find>
       <find>$End_Date_old</find>
       <find>$end_date</find>
       <find>en</find>
@@ -79,13 +106,23 @@
       <find>query</find>
       <find>update basic_reg</find>
       <find>$job</find>
-      <find>card_print</find>
       <find>$valid</find>
       <find>rep</find>
       <find>$Reg_Name</find>
       <find>required</find>
       <find>Total_qist_1</find>
       <find>disa</find>
+      <find>$secondary_Count</find>
+      <find>card_print</find>
+      <find>$secondary</find>
+      <find>$Secondary</find>
+      <find>var</find>
+      <find>$Wife_Image</find>
+      <find>$Secondary_Image</find>
+      <find>$wife_image</find>
+      <find>$secondary_</find>
+      <find>echo $</find>
+      <find>$Err</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -175,12 +212,12 @@
         <option value="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Add_fun.php" />
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php" />
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php" />
-        <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
-        <option value="$PROJECT_DIR$/payment/Payment_View.php" />
-        <option value="$PROJECT_DIR$/payment/card_print.php" />
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php" />
         <option value="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php" />
         <option value="$PROJECT_DIR$/Reports/payment_Latency.php" />
+        <option value="$PROJECT_DIR$/payment/card_print.php" />
+        <option value="$PROJECT_DIR$/payment/Payment_View.php" />
+        <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
       </list>
     </option>
   </component>
@@ -220,7 +257,7 @@
             <path>
               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="club_system" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic_Reg" type="462c0819:PsiDirectoryNode" />
+              <item name="payment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
@@ -315,7 +352,9 @@
       <workItem from="1558129144523" duration="13439000" />
       <workItem from="1558923193341" duration="5094000" />
       <workItem from="1559046939023" duration="45000" />
-      <workItem from="1559127922718" duration="4169000" />
+      <workItem from="1559127922718" duration="4215000" />
+      <workItem from="1559386701832" duration="47000" />
+      <workItem from="1559389283176" duration="4048000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -471,17 +510,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559131184243</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="defined variable total_qist_1">
+      <created>1559132477440</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1559132477440</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359513000" />
+    <option name="totallyTimeSpent" value="363654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22474378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32861635" />
@@ -511,7 +557,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22474378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -590,13 +636,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="229" column="11" selection-start-line="229" selection-start-column="11" selection-end-line="229" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/secondary_reports.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -834,24 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payment/card_print.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="305" column="33" lean-forward="true" selection-start-line="305" selection-start-column="33" selection-end-line="305" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Add_fun.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payment/Payment_View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>
@@ -883,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="384" column="59" selection-start-line="384" selection-start-column="59" selection-end-line="384" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -901,46 +919,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="321" column="4" selection-start-line="321" selection-start-column="4" selection-end-line="321" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#B#0;n#TR#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#TR#1;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3021">
-          <caret line="218" column="46" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/payment_Latency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="218" column="46" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/card_reprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/card_print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="417" column="29" lean-forward="true" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/Payment_View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="395" column="28" lean-forward="true" selection-start-line="395" selection-start-column="28" selection-end-line="395" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#1;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#2;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TD#1;n#TR#0;n#tbody#0;n#table#0;n#Center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#FONT#0;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#FONT#0;n#TD#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#B#0;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#INPUT#0;n#FONT#0;n#TD#0;n#TR#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#FONT#0;n#TD#0;n#TR#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
         </state>
       </provider>
     </entry>

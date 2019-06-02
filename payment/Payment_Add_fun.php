@@ -177,8 +177,13 @@ $n_regist=mysqli_num_rows($regist);
 	$installment_test=mysqli_query($con,"select operation from payment where User_ID ='$Text1'&& Reg_Type ='$Text2'&&Employee='$Employee'&&Pay_year='$Text33'&& status in (0,3)")or  die (mysqli_error($con));
 	while($installment_result=mysqli_fetch_array($installment_test))
 	{
-		$Operation=$installment_result["operation"];
-		if($Operation[$i]==5){$flag5=1;}else if ($Operation[$i]==6){$flag6=1;}
+		$Operation = $installment_result["operation"];
+		if($Operation ==5)
+		{
+		    $flag5=1;
+		}else if($Operation ==6)
+		{$flag6=1;}
+
 		$i++;
 	}
 if((int)$operation_type == 5){
@@ -526,7 +531,7 @@ if(($Text2==13||$Text2==14||$Text2==41||$Text2==42||$Text2==15||$Text2==33||$Tex
 if(($N_Same_Res>=1)&&($operation_type ==0||$operation_type ==5)){
 	$Err="кабЧ№ хах ЧскусэЩ упббЩ";
 	$continue=0;
-	
+
 	}
 if(($continue<>0)&&($Basic_res>0)){ 
 
