@@ -56,6 +56,7 @@ $Operation_Text="";
 if ($Operation==0){
     $Operation_Text='ÊÌÏíÏ ÚÖæíÉ';
     if($Inv_Chk_N>1){$Invitation=$Invitation2;}
+    if($Inv_Chk_N<=1){$Invitation=$Invitation;}
     if(($Car_Chk_N==1)&& ($Total > $car)){$car=$car2;}
     if($car_count==2){$car=$car2;}
 
