@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/Receipt_Print.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Receipt_Print.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Secondary_Reg_View.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Secondary_Reg_View.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -59,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Receipt_Print.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Receipt_Print.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payment/Receipt_Print.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="295" column="28" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
+            <state relative-caret-position="343">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -79,7 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$end_Date</find>
       <find>.counter</find>
       <find>counter</find>
       <find>echo</find>
@@ -109,6 +107,7 @@
       <find>$secondary_</find>
       <find>echo $</find>
       <find>$Err</find>
+      <find>invi</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -263,6 +262,7 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="$invitation&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/payment/card_print.php" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -347,7 +347,7 @@
       <workItem from="1559386701832" duration="47000" />
       <workItem from="1559389283176" duration="4048000" />
       <workItem from="1559508587546" duration="695000" />
-      <workItem from="1559521484389" duration="1283000" />
+      <workItem from="1559521484389" duration="2308000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -538,11 +538,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559522681285</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="invit_value">
+      <created>1559522798582</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1559522798582</updated>
+    </task>
+    <task id="LOCAL-00029" summary="invit_value display">
+      <created>1559523507645</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1559523507645</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365632000" />
+    <option name="totallyTimeSpent" value="366657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -650,7 +664,8 @@
     <MESSAGE value="handle end_date and disable it" />
     <MESSAGE value="defined variable total_qist_1" />
     <MESSAGE value="invit_value" />
-    <option name="LAST_COMMIT_MESSAGE" value="invit_value" />
+    <MESSAGE value="invit_value display" />
+    <option name="LAST_COMMIT_MESSAGE" value="invit_value display" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -978,16 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="218" column="46" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment/card_print.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6841">
@@ -997,8 +1002,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/payment/Receipt_Print.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="295" column="28" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
+        <state relative-caret-position="343">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="218" column="46" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#FONT#0;n#TD#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
