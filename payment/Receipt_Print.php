@@ -35,9 +35,9 @@ $Damaged = isset($_REQUEST["Damaged"])?$_REQUEST["Damaged"]:"";
 $Lost = isset($_REQUEST["Lost"])?$_REQUEST["Lost"]:"";
 $Tax = isset($_REQUEST["Tax"])?$_REQUEST["Tax"]:"";
 $car=isset($_REQUEST["car"])?$_REQUEST["car"]:"";
-$Invitation=isset($_REQUEST["invitation"])?$_REQUEST["invitation"]:"";
+$Invitation=isset($_REQUEST["Invitation"])?$_REQUEST["Invitation"]:"";
 $car2=isset($_REQUEST["car2"])?$_REQUEST["car2"]:"";
-$Invitation2=isset($_REQUEST["invitation2"])?$_REQUEST["invitation2"]:"";
+$Invitation2=isset($_REQUEST["Invitation2"])?$_REQUEST["Invitation2"]:"";
 ////////////////////////////////Basic Reg
 $Name = isset($_REQUEST["Name"])?$_REQUEST["Name"]:"";
 $valid=isset($_REQUEST["valid"])?$_REQUEST["valid"]:"";
@@ -290,10 +290,9 @@ for($i=0;$i<=$x_No;$i++){
     <?php echo  $No_Cards ;?>
     </TD><TD>  —”„ ﬂ«—‰ÌÂ« </TD></TR>
     <TR><TD>
-    <?php
-    echo  $Invitation*$Invitation_count ; ?>
+    <?php echo  $Invitation*$Invitation_count ; ?>
      </TD><TD>
-    <?php echo  $Invitation2 ;?>
+    <?php echo  $Invitation ;?>
      </TD><TD>
     <?php echo  $Invitation_count ;?>
     </TD><TD>—”„ œ⁄Ê… „—«›ﬁ </TD></TR>
