@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/Receipt_Print.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Receipt_Print.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card_print.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="card_print.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payment/card_print.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="6841">
               <caret line="417" column="29" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receipt_Print.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/payment/Receipt_Print.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="295" column="28" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -148,7 +158,6 @@
         <option value="$PROJECT_DIR$/payment/card_print_log.php" />
         <option value="$USER_HOME$/Desktop/Payment_View.php" />
         <option value="$PROJECT_DIR$/payment/printer_log.php" />
-        <option value="$PROJECT_DIR$/payment/Receipt_Print.php" />
         <option value="$PROJECT_DIR$/payment/invitation_reprint_fun.php" />
         <option value="$PROJECT_DIR$/Reports/payment_report.php" />
         <option value="$PROJECT_DIR$/payment/Payment_List_print.php" />
@@ -194,6 +203,7 @@
         <option value="$PROJECT_DIR$/payment/card_print.php" />
         <option value="$PROJECT_DIR$/payment/Payment_View.php" />
         <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
+        <option value="$PROJECT_DIR$/payment/Receipt_Print.php" />
       </list>
     </option>
   </component>
@@ -258,19 +268,19 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\club_system\Basic_Reg" />
-      <recent name="F:\app\ahmed\wamp\www\club_system\QR5" />
-      <recent name="F:\app\ahmed\wamp\www\club_system" />
-      <recent name="C:\AppServ\www\Club_System\Reports" />
-      <recent name="C:\AppServ\www\Club_System\Login" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\app\ahmed\wamp\www\club_system\JS" />
       <recent name="F:\app\ahmed\wamp\www\club_system\Basic_Reg" />
       <recent name="F:\app\ahmed\wamp\www\club_system\css" />
       <recent name="F:\app\ahmed\wamp\www\club_system\js" />
       <recent name="F:\app\ahmed\wamp\www\club_system\Reports\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\club_system\payment" />
+      <recent name="C:\wamp\www\club_system\Basic_Reg" />
+      <recent name="F:\app\ahmed\wamp\www\club_system\QR5" />
+      <recent name="F:\app\ahmed\wamp\www\club_system" />
+      <recent name="C:\AppServ\www\Club_System\Reports" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,7 +347,7 @@
       <workItem from="1559386701832" duration="47000" />
       <workItem from="1559389283176" duration="4048000" />
       <workItem from="1559508587546" duration="695000" />
-      <workItem from="1559521484389" duration="700000" />
+      <workItem from="1559521484389" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -514,23 +524,37 @@
       <option name="project" value="LOCAL" />
       <updated>1559521905367</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="defined variable total_qist_1">
+      <created>1559522196499</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1559522196499</updated>
+    </task>
+    <task id="LOCAL-00027" summary="invit_value">
+      <created>1559522681285</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1559522681285</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365049000" />
+    <option name="totallyTimeSpent" value="365632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32861635" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.18137255" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -625,7 +649,8 @@
     <MESSAGE value="update check b_date &amp; name where retrive" />
     <MESSAGE value="handle end_date and disable it" />
     <MESSAGE value="defined variable total_qist_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="defined variable total_qist_1" />
+    <MESSAGE value="invit_value" />
+    <option name="LAST_COMMIT_MESSAGE" value="invit_value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -633,13 +658,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Reports/secondary_reports.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/payment_first.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -972,8 +990,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/payment/card_print.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="6841">
           <caret line="417" column="29" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/Receipt_Print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="295" column="28" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
         </state>
       </provider>
     </entry>

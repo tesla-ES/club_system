@@ -293,7 +293,7 @@ for($i=0;$i<=$x_No;$i++){
     <?php
     echo  $Invitation*$Invitation_count ; ?>
      </TD><TD>
-    <?php echo  $Invitation ;?>
+    <?php echo  $Invitation2 ;?>
      </TD><TD>
     <?php echo  $Invitation_count ;?>
     </TD><TD>бгу ЯкцЩ убЧно </TD></TR>
