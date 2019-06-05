@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="" />
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -347,7 +345,7 @@
       <workItem from="1559386701832" duration="47000" />
       <workItem from="1559389283176" duration="4048000" />
       <workItem from="1559508587546" duration="695000" />
-      <workItem from="1559521484389" duration="2308000" />
+      <workItem from="1559521484389" duration="2720000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -552,15 +550,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559523507645</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="end_date&gt;&gt;">
+      <created>1559523829143</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1559523829143</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366657000" />
+    <option name="totallyTimeSpent" value="367069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -665,7 +669,8 @@
     <MESSAGE value="defined variable total_qist_1" />
     <MESSAGE value="invit_value" />
     <MESSAGE value="invit_value display" />
-    <option name="LAST_COMMIT_MESSAGE" value="invit_value display" />
+    <MESSAGE value="end_date&gt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="end_date&gt;&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

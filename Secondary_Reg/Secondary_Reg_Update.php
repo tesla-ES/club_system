@@ -17,7 +17,7 @@ include_once '../menu.php';write_menu('Secondary_Reg');
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="#F2F2F2">
 <FORM NAME="FORM2"  action="Secondary_Reg_View.php?" method="post">
 <?PHP
-
+///to
 $User_ID=$_REQUEST["Text1"];
 $Reg_Type=$_REQUEST["Text2"];
 $Sec_Type=$_REQUEST["Text3"];
