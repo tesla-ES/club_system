@@ -60,7 +60,7 @@ if ($Operation==0){
     if(($Car_Chk_N==1)&& ($Total > $car)){$car=$car2;}
     if($car_count==2){$car=$car2;}
 
-    
+
 }else if($Operation==1){
     $Card_Cost=$Lost;
     $Operation_Text=	'»œ· ›«ﬁœ';
