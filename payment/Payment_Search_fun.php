@@ -12,6 +12,7 @@ include_once '../page_validation.php';
 r_header($page_name,$con);
 include_once '../menu.php';write_menu('Payment');
 ?>
+
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="#F2F2F2">
 
 <FORM NAME="FORM2"   method="post">
@@ -171,7 +172,7 @@ if($payment_status=="all") {
 }
 $record_count=mysqli_num_rows(mysqli_query($con,$query));
 $max_pages=$record_count / $per_page;
-$query .="ORDER BY User_ID  LIMIT $start , $per_page";
+$query .="ORDER BY Pay_Date DESC, User_ID  LIMIT $start , $per_page";
 
 $result =  mysqli_query($con,$query);
 

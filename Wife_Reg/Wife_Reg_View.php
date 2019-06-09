@@ -109,7 +109,10 @@ $result1 = mysqli_query($con,"SELECT Code,Name FROM secondary_type ORDER BY Code
 			}
 
 echo"</select></TD>";
-
+if($pop28!=Null){
+    echo"
+<TD ALIGN=RIGHT  BGCOLOR='#c4c4c4' border=1 rowspan=2 > <FONT color='#FFFFFF'><img src='$pop28'  width='70' height='70'></Font></TH>";
+}
 echo"
 </TR>
 <TR  >

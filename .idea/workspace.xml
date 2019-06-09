@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Receipt_Print.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Receipt_Print.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payment/Receipt_Print.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            <state relative-caret-position="111">
+              <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Payment_Search_fun.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/Payment_Search_fun.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Basic_Reg_Add_fun.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="107" column="30" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -137,7 +156,6 @@
         <option value="$PROJECT_DIR$/payment/Payment_Search.php" />
         <option value="$PROJECT_DIR$/payment/pre_payment_list.php" />
         <option value="$PROJECT_DIR$/payment/Payment_Update.php" />
-        <option value="$PROJECT_DIR$/payment/Payment_Search_fun.php" />
         <option value="$PROJECT_DIR$/payment/Payment_Delete.php" />
         <option value="$PROJECT_DIR$/payment/invitation_reprint.php" />
         <option value="$PROJECT_DIR$/payment/card_reprint.php" />
@@ -167,7 +185,6 @@
         <option value="$PROJECT_DIR$/css/table_css.css" />
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_List.php" />
         <option value="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Add_fun.php" />
-        <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php" />
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php" />
         <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_View.php" />
         <option value="$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_View.php" />
@@ -176,6 +193,8 @@
         <option value="$PROJECT_DIR$/payment/Payment_View.php" />
         <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
         <option value="$PROJECT_DIR$/payment/Receipt_Print.php" />
+        <option value="$PROJECT_DIR$/payment/Payment_Search_fun.php" />
+        <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php" />
       </list>
     </option>
   </component>
@@ -211,6 +230,11 @@
             <path>
               <item name="git_club_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_club_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_club_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_club_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic_Reg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_club_system" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +337,7 @@
       <workItem from="1559508587546" duration="695000" />
       <workItem from="1559521484389" duration="2720000" />
       <workItem from="1560076874021" duration="1592000" />
-      <workItem from="1560078546597" duration="929000" />
+      <workItem from="1560078546597" duration="3433000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -539,11 +563,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560077977434</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="تعديلات العضويه">
+      <created>1560080485413</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1560080485413</updated>
+    </task>
+    <task id="LOCAL-00034" summary="تعديلات العضويه">
+      <created>1560080563921</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1560080563921</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369590000" />
+    <option name="totallyTimeSpent" value="372094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -654,7 +692,8 @@
     <MESSAGE value="invit_value display" />
     <MESSAGE value="end_date&gt;&gt;" />
     <MESSAGE value="recept_print" />
-    <option name="LAST_COMMIT_MESSAGE" value="recept_print" />
+    <MESSAGE value="تعديلات العضويه" />
+    <option name="LAST_COMMIT_MESSAGE" value="تعديلات العضويه" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,13 +701,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Reports/payment_first.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/regulation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -976,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -992,8 +1017,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/payment/Receipt_Print.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        <state relative-caret-position="111">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/Payment_Search_fun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="107" column="30" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
         </state>
       </provider>
     </entry>
