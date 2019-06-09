@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/Payment_Add_fun.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Payment_Add_fun.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/Payment_View.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/Payment_View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/card_print.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment/card_print.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,95 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Payment_Add_fun.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payment/Payment_Add_fun.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="384" column="59" selection-start-line="384" selection-start-column="59" selection-end-line="384" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Secondary_Reg_Update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Basic_Reg_List.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_List.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Payment_View.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payment/Payment_View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_print.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/payment/card_print.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="282" column="8" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Secondary_Reg_Add_fun.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Add_fun.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Basic_Reg_Add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="1326">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Basic_Reg_Add_fun.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php">
+      <file leaf-file-name="Basic_Reg_Delete.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Basic_Reg_Update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="183" column="31" lean-forward="true" selection-start-line="183" selection-start-column="31" selection-end-line="183" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Secondary_Reg_Add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+            <state relative-caret-position="224">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -204,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/payment/invitation_view.php" />
         <option value="$PROJECT_DIR$/JS/functions.js" />
         <option value="$PROJECT_DIR$/payment/22222" />
         <option value="$PROJECT_DIR$/payment/card_print_log.php" />
@@ -255,6 +177,7 @@
         <option value="$PROJECT_DIR$/payment/Payment_Add_fun.php" />
         <option value="$PROJECT_DIR$/payment/Payment_View.php" />
         <option value="$PROJECT_DIR$/payment/card_print.php" />
+        <option value="$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php" />
       </list>
     </option>
   </component>
@@ -283,27 +206,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="club_system" type="462c0819:PsiDirectoryNode" />
+              <item name="git_club_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_club_system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="club_system" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="club_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="git_club_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_club_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic_Reg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +230,7 @@
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../im-ex-port" />
-    <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -387,6 +306,10 @@
       <workItem from="1556737451338" duration="128000" />
       <workItem from="1558129144523" duration="13439000" />
       <workItem from="1558923193341" duration="5094000" />
+      <workItem from="1559038651183" duration="1886000" />
+      <workItem from="1559129903178" duration="774000" />
+      <workItem from="1559132054600" duration="132000" />
+      <workItem from="1560075900629" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -476,22 +399,31 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355299000" />
+    <option name="totallyTimeSpent" value="358360000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32861635" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50075644" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32861635" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32626426" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22474378" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3207547" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -508,6 +440,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -764,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Honor/Honor_More.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -856,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add_fun.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -895,9 +816,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
           <caret line="282" column="8" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Reg/Basic_Reg_Delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
         </state>
       </provider>
     </entry>
