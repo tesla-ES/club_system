@@ -33,6 +33,7 @@ $Wife_Image =  explode(',', $_REQUEST["Wife_Image"]);
 
 $Secondary_Name =explode(',', $_REQUEST["Secondary_Name"]);
 $Secondary_Image =explode(',', $_REQUEST["Secondary_Image"]);
+
 $Secondary_Date = explode(',', $_REQUEST["Secondary_Date"]);
 $serials= explode(',', $_REQUEST["serials"]);
 if($Operation==1){
@@ -413,7 +414,7 @@ $end_date = $Pay_Year . "/12/31" ;
                         <TD Width=30% height=20px nowrap>&nbsp</TD>
                     </TR>
                     <TR>
-                        <td rowspan="5"  valign=top><img SRC="' <?php $Secondary_Image[$i]; ?> '" BORDER="0" width=90px height=120px style="border-radius: 5px;  position: relative; left: 8px; border: 1px solid #4262cc;">
+                        <td rowspan="5"  valign=top><img SRC="<?php echo $Secondary_Image[$i]; ?>" BORDER="0" width=90px height=120px style="border-radius: 5px;  position: relative; left: 8px; border: 1px solid #4262cc;">
                         </td>
                         <TD width=70% nowrap class="raplace">
                             <?php if ($Operation == 1) {

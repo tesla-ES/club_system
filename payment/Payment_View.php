@@ -176,8 +176,10 @@ if($Operation==1||$Operation==2){
     $Wife_Reg_sql="SELECT name,image  FROM Wife_Reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee' && rep=1";
 	$Wife_Count = mysqli_query($con,$Wife_Reg_sql)or  die (mysqli_error($con));
 	//echo $Wife_Reg_sql ;
-	$secondary_Count = mysqli_query($con,"SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && rep=1 ")or  die (mysqli_error($con));
+
+    $secondary_Count = mysqli_query($con,"SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && rep=1 ")or  die (mysqli_error($con));
     $secondary_reg_sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d')  as End_Date ,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && rep=1 &&(((DATEDIFF(SYSDATE(),B_DATE))/365)>=10)";
+
 
     $More_Counts = mysqli_query($con,$sql)or  die (mysqli_error($con));
     $More_Count =mysqli_num_rows($More_Counts);
@@ -185,7 +187,8 @@ if($Operation==1||$Operation==2){
      $sql="select Name,image,b_date,Job,valid,Guest_no,end_date from Basic_Reg where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && Employee='$Employee' ";
      $Wife_Reg_sql="SELECT name,image  FROM Wife_Reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee'" ;
      $Wife_Count = mysqli_query($con,$Wife_Reg_sql)or  die (mysqli_error($con));
-     $secondary_reg_sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date, Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' " ;
+     $secondary_reg_sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date, Ser FROM secondary_reg Where User_ID =$User_ID && Reg_Type =$Reg_Type && card_ok=1 && Employee=$Employee " ;
+
      $secondary_Count = mysqli_query($con,$secondary_reg_sql)or  die (mysqli_error($con));
      $More_Count=0;
      $Total_Secondary_Wife_Cards=0;
@@ -202,7 +205,7 @@ if($Operation==1||$Operation==2){
 		$Wife_Reg_sql="SELECT name,image  FROM Wife_Reg Where User_ID ='$User_ID' && Reg_Type ='$Reg_Type'&& Card_OK='1'&& Employee='$Employee'  && New_flag =1" ;
 		$Wife_Count = mysqli_query($con,$Wife_Reg_sql)or  die (mysqli_error($con));
 
-		$secondary_reg_sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date, Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee'  && New_flag =1" ;
+		$secondary_reg_sql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date, Ser FROM secondary_reg Where User_ID =$User_ID && Reg_Type =$Reg_Type && card_ok='1' && Employee=$Employee  && New_flag =1" ;
 		$secondary_Count = mysqli_query($con,$secondary_reg_sql)or  die (mysqli_error($con));
 
 		$ssql="SELECT Name,image,DATE_FORMAT(`End_Date`,'%Y/%m/%d') as End_Date ,Ser FROM secondary_reg Where User_ID ='$User_ID'&& Reg_Type ='$Reg_Type' && card_ok='1' && Employee='$Employee' && (((DATEDIFF(SYSDATE(),B_DATE))/365)>=10) && New_flag =1";
@@ -259,7 +262,8 @@ $Wife_s=mysqli_num_rows($Wife_Count);
 			$i++;		
 	}
 		$Secondary_s=mysqli_num_rows($secondary_Count);
-		
+
+
 		///////////////////////////////////////////////////reg_type Select
 		$result = mysqli_query($con,"SELECT Code,Name FROM reg_type ORDER BY Code")or  die (mysqli_error($con));
 			while($ress=mysqli_fetch_array($result))
@@ -369,7 +373,7 @@ alert("бёѕ  г Ў»«Џе «бѕЏж«  гд– ёбнб -- н Ўб» Ё Ќе гћѕѕ« ббЎ»«Џе ’б«Ќне «Џбм ");
 }
 
 function card_print() {
-	alert (123);
+
 if(window.parent.document.getElementById("card_printed").value >0)
 {
 alert("бёѕ  г Ў»«Џе «бя«—дне гд– ёбнб -- н Ўб» Ё Ќе гћѕѕ« ббЎ»«Џе ’б«Ќне «Џбм ");

@@ -10,7 +10,7 @@
 
 <?php
 
-
+$employee_type = "";
 $employee_type =asignValue($_REQUEST['employee_type'],false);
 $operation_type =asignValue($_REQUEST['operation_type'],false);
 $Membership_type =asignValue($_REQUEST['Membership_type'],false);
@@ -38,6 +38,11 @@ IF($operation_type){
 <body>
 
 <?php
+todo  check var value
+$Total_qist_1 = "";
+$Total_qist_2 = "";
+
+$operation_type="";
 report_header();
 ?>
 
@@ -48,6 +53,8 @@ report_header();
 </div>
 <hr>
  <?php
+
+
 
 $Get_Count_sql="select count(*) as record_count from (
 select user_id,reg_type,employee,total as qist_1 , pay_date as  qist_1_date ,0 as qist_2, DATE_ADD(pay_date, INTERVAL 6 MONTH)    as  qist_2_date

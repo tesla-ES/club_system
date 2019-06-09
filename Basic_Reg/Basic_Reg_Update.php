@@ -72,6 +72,10 @@ if(valid_date($_REQUEST["Text8"])) {
 	//$len1=strlen($date1[2]);
 	//echo" $_POST[Text8]<BR>$b_date<BR>$end_date";
 }
+else{
+    echo "   لابد من ادخال قيمه صحيحه فى تاريخ الميلاد <br>" ;
+    exit ;
+}
 if(valid_date($_REQUEST["Text13"])) {
     $date2 = explode("/", $_REQUEST["Text13"]); // change date format
     $Grade_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
@@ -121,7 +125,7 @@ Rowing='$Rowing',
 upd_date= sysdate(),
 upd_user = $session_user_id,
 knighthood='$knighthood'
-where (User_ID=$User_ID && Reg_Type=$Reg_Type &&  Employee=$Employee) ")or die(mysqli_error($con));
+where (User_ID='$User_ID'&& Reg_Type='$Reg_Type'&&  Employee='$Employee') ")or die(mysqli_error($con));
 
 
  // uploading files
@@ -161,7 +165,6 @@ if($_FILES["file"]["size"]>0) {
         }
     } else {
         echo "Invalid file";
-        exit ;
     }
 
     if (($_FILES["file"]["type"] == "image/gif")) {
@@ -183,26 +186,13 @@ if($_FILES["file"]["size"]>0) {
 
     if ($Reg_Type == 13 || $Reg_Type == 14 || $Reg_Type == 15 || $Reg_Type == 33 || $Reg_Type == 41 || $Reg_Type == 42) {
         if (file_exists("../Upload/" . $Curr_Year . "/" . $_FILES["file"]["name"])) {
-            try
-            { unlink("../Upload/" . $Curr_Year . "/" . $second_column);
-            }  catch(Exception $e) {
-                echo 'Message: ' .$e->getMessage();
-            }
-
+            unlink("../Upload/" . $Curr_Year . "/" . $second_column);
             rename("../Upload/" . $Curr_Year . "/" . $_FILES["file"]["name"], "../Upload/" . $Curr_Year . "/" . $second_column);
         }
         $second_column = "../Upload/" . $Curr_Year . "/" . $second_column;
     } else {
         if (file_exists("../Upload/" . $_FILES["file"]["name"])) {
-            try
-            {
-                unlink("../Upload/" . $second_column);
-            }
-
-            catch(Exception $e) {
-                echo 'Message: ' .$e->getMessage();
-            }
-
+            unlink("../Upload/" . $second_column);
             rename("../Upload/" . $_FILES["file"]["name"], "../Upload/" . $second_column);
         }
 

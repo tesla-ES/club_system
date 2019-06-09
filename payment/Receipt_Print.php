@@ -35,9 +35,9 @@ $Damaged = isset($_REQUEST["Damaged"])?$_REQUEST["Damaged"]:"";
 $Lost = isset($_REQUEST["Lost"])?$_REQUEST["Lost"]:"";
 $Tax = isset($_REQUEST["Tax"])?$_REQUEST["Tax"]:"";
 $car=isset($_REQUEST["car"])?$_REQUEST["car"]:"";
-$Invitation=isset($_REQUEST["invitation"])?$_REQUEST["invitation"]:"";
+$Invitation=isset($_REQUEST["Invitation"])?$_REQUEST["Invitation"]:"";
 $car2=isset($_REQUEST["car2"])?$_REQUEST["car2"]:"";
-$Invitation2=isset($_REQUEST["invitation2"])?$_REQUEST["invitation2"]:"";
+$Invitation2=isset($_REQUEST["Invitation2"])?$_REQUEST["Invitation2"]:"";
 ////////////////////////////////Basic Reg
 $Name = isset($_REQUEST["Name"])?$_REQUEST["Name"]:"";
 $valid=isset($_REQUEST["valid"])?$_REQUEST["valid"]:"";
@@ -56,6 +56,7 @@ $Operation_Text="";
 if ($Operation==0){
     $Operation_Text=' ÃœÌœ ⁄÷ÊÌ…';
     if($Inv_Chk_N>1){$Invitation=$Invitation2;}
+    if($Inv_Chk_N<=1){$Invitation=$Invitation;}
     if(($Car_Chk_N==1)&& ($Total > $car)){$car=$car2;}
     if($car_count==2){$car=$car2;}
 
@@ -289,8 +290,7 @@ for($i=0;$i<=$x_No;$i++){
     <?php echo  $No_Cards ;?>
     </TD><TD>  —”„ ﬂ«—‰ÌÂ« </TD></TR>
     <TR><TD>
-    <?php
-    echo  $Invitation*$Invitation_count ; ?>
+    <?php echo  $Invitation*$Invitation_count ; ?>
      </TD><TD>
     <?php echo  $Invitation ;?>
      </TD><TD>
