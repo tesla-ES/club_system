@@ -12,7 +12,6 @@ include_once '../page_validation.php';
 r_header($page_name,$con);
 include_once '../menu.php';write_menu('Payment');
 ?>
-
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="#F2F2F2">
 
 <FORM NAME="FORM2"   method="post">
