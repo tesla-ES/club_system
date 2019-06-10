@@ -115,16 +115,10 @@ if (valid_date($Text23)) {
   else{
       $query = "INSERT INTO Basic_Reg ( User_ID,Reg_Type,Sec_Type,Ser,Employee,Name,b_date,gender,b_place,Nationality,Education,Grade_Date,Job,Employer,Job_Tel,Home_Tel,Address,Status,Hire_date,Social_Type,Social_No,Social_Date,Place,Last_Year,Valid,Notes,Beach,Yacht,Golf,Tennis,Guest_No,end_date,ins_date,ins_user,Rowing,knighthood )";
       $query .=" values ( '$Text1','$Text2','$Text3','$Text4','$Text5','$Text6','$Text8','$Text9','$Text10','$Text11','$Text12','$Text13','$Text14','$Text15','$Text16','$Text17','$Text18','$Text19','$Text20','$Text21','$Text22','$Text23','$Text24','$Text25','$Text26','$Text27','$Beach','$Yacht','$Golf','$Tennis','$Text60','$end_date',sysdate(),$session_user_id,'$Rowing','$knighthood')";
-
-
       mysqli_query($con,$query) or  die (mysqli_error($con));
   }
-
-
-
     mysqli_close($con);
     redirect("Basic_Reg_View.php?user_id=$Text1&employee=$Text5& reg_type=$Text2");
-
 ?>
 <BR>
 </FORM>

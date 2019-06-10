@@ -143,7 +143,7 @@ $end_date = $Pay_Year . "/12/31" ;
                         <?php if ($reg_type_code == 36) {
                             $B_Y_G_T_ = $B_Y_G_T;
                         } else {
-                            $B_Y_G_T_ = $Reg_Name + $B_Y_G_T;
+                            $B_Y_G_T_ = $Reg_Name . $B_Y_G_T;
                         }
                         echo $B_Y_G_T_; ?>
 
