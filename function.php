@@ -308,19 +308,25 @@ echo "<div class='pagination-wrapper'>";
 echo "</div>";
 }
 
+
+function isRealDate($date) {
+    if (false === strtotime($date)) {
+        return false;
+    }
+    list($year, $month, $day) = explode('-', $date);
+    return checkdate($month, $day, $year);
+}
+
+
 function valid_date($inputdate){
     if(isset($inputdate)){
-        $date = $inputdate;
-        if (strtotime($date)){
-            if (strpos($date,'/') !== false) {
-                list($day, $month, $year) = explode('/', $date);
-                return checkdate($month, $day, $year);
-            }else{
-                return false;
-            }
-        }else{
+        if (isRealDate($inputdate)) {
+            return true;
+        }
+        else {
             return false;
-        }}else{
+        }
+    }else{
         return false;
     }
 }
