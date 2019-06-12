@@ -30,7 +30,7 @@ $Text28=$_REQUEST["Text28"];
 $Text30=$_REQUEST["Text30"];
 $Text31=$_REQUEST["Text31"];
 $Text32=$_REQUEST["Text32"];
-$End_Date=$_REQUEST["Text61"];
+$End_Date = valid_date($_REQUEST["Text61"])?$_REQUEST["Text61"]:"";
 
 
 $sqlx ="select b_date from Basic_Reg where User_ID ='$Text1' && Reg_Type ='$Text2' && Employee='$Text5000' ";

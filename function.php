@@ -312,9 +312,10 @@ echo "</div>";
 function isRealDate($date) {
     if (false === strtotime($date)) {
         return false;
+        exit ;
     }
-    list($year, $month, $day) = explode('-', $date);
-    return checkdate($month, $day, $year);
+    list($day,$month,$year) = explode('/', $date);
+    return checkdate($month,$day,$year);
 }
 
 
