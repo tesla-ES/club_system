@@ -31,8 +31,18 @@ $Card_OK=$_REQUEST["Text32"];
 $Employee=$_REQUEST["Text5000"];
 
 if(valid_date($_REQUEST["Text8"])) {
-    $date1 = explode("/", $_REQUEST["Text8"]); // change date format
+
+    if (strpos($_REQUEST["Text8"], '-') !== false) {
+        $date1 = explode("-", $_REQUEST["Text8"]); // change date format
+    }
+    else
+        {
+            $date1 = explode("/", $_REQUEST["Text8"]); // change date format
+        }
+
     $b_date = $date1[2] . "-" . $date1[1] . "-" . $date1[0];// change date format
+
+
 }
 else{
     echo "   ·«»œ „‰ «œŒ«· ﬁÌ„Â ’ÕÌÕÂ ›Ï  «—ÌŒ «·„Ì·«œ <br>" ;
@@ -45,12 +55,14 @@ if(valid_date($_REQUEST["Text61"])) {
     $End_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
 }else{
 
-    $date2="31/12/".((int)$date1[2]+23);
 
+
+
+    $date2="31/12/".((int)$date1[2]+23);
     $date2 = explode("/", $date2); // change date format
     $End_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
-
 }
+
 
 if((isset($date2))&& ($date2[2] - $date1[2] < 25) && ($Card_OK == 1)){
     $End_Date=((int)$date2[2]+$_REQUEST["Text62"])."-12-31";// change date format

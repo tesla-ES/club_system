@@ -82,7 +82,7 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
         case "Membership_type":
           echo "<select name='$sname' class='select_default'>";
             if($show_all){
-               echo"<option value='all'> ßá ÇáÇäæÇÚ  </option>";
+               echo"<option value='all'> ÙƒÙ„ Ø§Ù„Ø§Ù†ÙˆØ§Ø¹  </option>";
             }
             $result = mysqli_query($con,"SELECT Code,Name FROM reg_type ORDER BY Code");
             while($res=mysqli_fetch_array($result))
@@ -100,11 +100,11 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
             echo "<select name='$sname'  class='$class'>";
 
             if($show_all){
-                echo"<option value='all'> ßá ÇáÇäæÇÚ  </option>";
+                echo"<option value='all'> ÙƒÙ„ Ø§Ù„Ø§Ù†ÙˆØ§Ø¹  </option>";
             }
             if($for_print)
             {
-                echo"<option value='for_print' selected> ÇáãØáæÈ ØÈÇÚÊå </option>";
+                echo"<option value='for_print' selected> Ø§Ù„Ù…Ø·Ù„ÙˆØ¨ Ø·Ø¨Ø§Ø¹ØªÙ‡ </option>";
             }
             $result = mysqli_query($con,"SELECT op_id,op_name FROM operation_type ORDER BY op_id");
             while($res=mysqli_fetch_array($result))
@@ -120,7 +120,7 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
         case "employee_type":
             echo "<select name='$sname'  class='select_default'>";
             if($show_all){
-                echo"<option value='99'> ßá ÇáÇäæÇÚ  </option>";
+                echo"<option value='99'> ÙƒÙ„ Ø§Ù„Ø§Ù†ÙˆØ§Ø¹  </option>";
             }
             $result2 = mysqli_query($con,"SELECT Code,Name FROM employee_type ORDER BY Code");
             while($res=mysqli_fetch_array($result2))
@@ -136,7 +136,7 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
         case "payment_status":
             echo "<select name='$sname' class='select_default'>";
             if($show_all){
-                echo"<option value='all'> ßá ÇáÇäæÇÚ  </option>";
+                echo"<option value='all'> ÙƒÙ„ Ø§Ù„Ø§Ù†ÙˆØ§Ø¹  </option>";
             }
             $result = mysqli_query($con,"SELECT Code,Name FROM payment_status ORDER BY Code");
             while($res=mysqli_fetch_array($result))
@@ -156,22 +156,22 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
 
 function order_list(){?>
     <TR  align="middle">
-        <TH ><FONT size="4"  > ÇáÊÑÊíÈ</TH><TD align="right">
+        <TH ><FONT size="4"  > Ø§Ù„ØªØ±ØªÙŠØ¨</TH><TD align="right">
 
             <select name="order_arrange" class="select_default">";
-                <option value='User_ID'>ÑŞã ÇáÚÖæíå</option>
-                <option value='Name'>ÇÓã ÇáÚÖæ</option>
-                <option value='pay_Date'>ÊÇÑíÎ ÇáÏİÚ</option></select>
+                <option value='User_ID'>Ø±Ù‚Ù… Ø§Ù„Ø¹Ø¶ÙˆÙŠÙ‡</option>
+                <option value='Name'>Ø§Ø³Ù… Ø§Ù„Ø¹Ø¶Ùˆ</option>
+                <option value='pay_Date'>ØªØ§Ø±ÙŠØ® Ø§Ù„Ø¯ÙØ¹</option></select>
 
         </TD> </TR>
 <?php
 }
 function result_count(){?>
     <TR  align="middle">
-        <TH ><FONT size="4"  > ÚÏÏ ÇáäÊÇÆÌ İì ÇáÕİÍå  :</TH><TD align="right">
+        <TH ><FONT size="4"  > Ø¹Ø¯Ø¯ Ø§Ù„Ù†ØªØ§Ø¦Ø¬ ÙÙ‰ Ø§Ù„ØµÙØ­Ù‡  :</TH><TD align="right">
 
             <select name="per_page" class="select_default">";
-                <option value='all'>ßá ÇáäÊÇÆÌ</option>
+                <option value='all'>ÙƒÙ„ Ø§Ù„Ù†ØªØ§Ø¦Ø¬</option>
                 <option value=30>30</option>
                 <option value=50>50</option>
                 <option value=100>100</option>
@@ -189,20 +189,20 @@ function report_header(){
     <table style="width: 98%" cellspacing="1" cellpadding="1">
     <TR><TH style="text-align: left"><A HREF="javascript:window.print();window.close();"><IMG SRC="../img/print.gif" BORDER="0" width=20 height=20 class='no-print'></A></TH >
     <TH style="text-align: right">
-        åíÆå ŞäÇå ÇáÓæíÓ
+        Ù‡ÙŠØ¦Ù‡ Ù‚Ù†Ø§Ù‡ Ø§Ù„Ø³ÙˆÙŠØ³
     </TH> </tr>
      <tr><th></th><th style="text-align: right">
-             ÇáäÇÏì ÇáÚÇã
+             Ø§Ù„Ù†Ø§Ø¯Ù‰ Ø§Ù„Ø¹Ø§Ù…
          </th></tr>
         <tr><th></th><th style="text-align: right">
-ÔÆæä ÇáÚÖæíå
+Ø´Ø¦ÙˆÙ† Ø§Ù„Ø¹Ø¶ÙˆÙŠÙ‡
            </th></tr>
 </table>
 <?php
 }
 function report_uncompleate_parameter(){
     echo "<div class='nots'>";
-    echo "áÇ íãßä ÚÑÖ ÇáÊŞÑíÑ --- ÈÚÖ ÇáÈíÇäÇÊ ÛíÑ ãßÊãáå --- ãä İÖáß Şã ÈÚÑÖ ÇáÊŞÑíÑ ãä ÇáÒÑ ÇáãÎÕÕ  ";
+    echo "Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø¹Ø±Ø¶ Ø§Ù„ØªÙ‚Ø±ÙŠØ± --- Ø¨Ø¹Ø¶ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª ØºÙŠØ± Ù…ÙƒØªÙ…Ù„Ù‡ --- Ù…Ù† ÙØ¶Ù„Ùƒ Ù‚Ù… Ø¨Ø¹Ø±Ø¶ Ø§Ù„ØªÙ‚Ø±ÙŠØ± Ù…Ù† Ø§Ù„Ø²Ø± Ø§Ù„Ù…Ø®ØµØµ  ";
     echo "</div>";
 }
 
@@ -310,21 +310,43 @@ echo "</div>";
 
 
 function isRealDate($date) {
-    if (false === strtotime($date)) {
+
+    //if (false === strtotime(tosting($date))) {
+if (strpos($date, '-') !== false) {
+         if(false === date_create_from_format('d-m-Y', $date)){
         return false;
         exit ;
-    }
-    list($day,$month,$year) = explode('/', $date);
-    return checkdate($month,$day,$year);
-}
+         }
 
+}else{
+             if(false === date_create_from_format('d/m/Y', $date)) {
+                 return false;
+                 exit;
+             }
+         }
+
+
+
+        if (strpos($date, '-') !== false) {
+            list($day, $month, $year) = explode('-', $date);
+        } else {
+            list($day, $month, $year) = explode('/', $date);
+
+        }
+
+        return checkdate($month,$day,$year);
+}
 
 function valid_date($inputdate){
     if(isset($inputdate)){
+
+
+
         if (isRealDate($inputdate)) {
             return true;
         }
         else {
+
             return false;
         }
     }else{
