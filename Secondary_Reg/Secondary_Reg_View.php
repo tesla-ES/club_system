@@ -216,7 +216,7 @@ echo"
 	echo"			
 	<TD><FONT size='4'  > нд ем Ём  : 
 	
-		<input type='text' name='Text61'  disabled style='font-size: 10pt; padding-top:5px;height:25px;width:70px' value='$pop60'>
+		<input type='text' name='Text61'  readonly style='font-size: 10pt; padding-top:5px;height:25px;width:70px' value='$pop60'>
 		</TD>
 		<TD>";
 		 if($card_release_ok==1){

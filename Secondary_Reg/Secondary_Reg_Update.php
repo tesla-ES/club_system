@@ -49,29 +49,48 @@ else{
     exit ;
 }
 //echo "b-date= " .$b_date. "<br>" ;
+$sqlx ="select b_date from Basic_Reg where User_ID ='$User_ID' && Reg_Type ='$Reg_Type' && Employee='$Employee' ";
+$finx=mysqli_query($con,$sqlx)or  die (mysqli_error($con));
+while($resx=mysqli_fetch_array($finx))
+{
+    $B_Date=$resx["b_date"];
+}
+$B_Date=substr($B_Date,0,4);
 
+/*
+$valid_to_exception = false;
 if(valid_date($_REQUEST["Text61"])) {
     $date2 = explode("/", $_REQUEST["Text61"]); // change date format
-    $End_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
-}else{
+    $End_Date = $date2[0] . "-" . $date2[1] . "-" . $date2[2];// change date format
+
+}else {
+*/
 
 
+    if ((((int)$B_Date + 60) < ((int)$date1[2] + 23)) && ($Reg_Type == 1)) {
+        $End_Date = ((int)$B_Date + 60) . "-12-31";
+
+    } else {
+        $End_Date = ((int)$date1[2] + 23) . "-12-31";
+        $valid_to_exception = true;
+    }
 
 
-    $date2="31/12/".((int)$date1[2]+23);
-    $date2 = explode("/", $date2); // change date format
-    $End_Date = $date2[2] . "-" . $date2[1] . "-" . $date2[0];// change date format
+    $date2 = explode("-", $End_Date); // change date format
+
+//}
+
+if(isset($_REQUEST["Text62"])&& $_REQUEST["Text62"] >0 && $valid_to_exception==true ) {
+
+    if ((isset($date2)) && (($date2[0] - $date1[2]) < 25) && ($Card_OK == 1)) {
+
+        $End_Date = ((int)$date2[0] + $_REQUEST["Text62"]) . "-12-31";// change date format
+
+    } else {
+        $End_Date = ((int)$date2[0]) . "-12-31";// change date format
+    }
+    $End_Date_old=((int)$date1[2]+23)."-12-31";// change date format
 }
-
-
-if((isset($date2))&& ($date2[2] - $date1[2] < 25) && ($Card_OK == 1)){
-    $End_Date=((int)$date2[2]+$_REQUEST["Text62"])."-12-31";// change date format
-
-}
-else{
-    $End_Date=((int)$date2[2])."-12-31";// change date format
-}
-$End_Date_old=((int)$date1[2]+23)."-12-31";// change date format
 
 ///////////////////////////////////////update function
 
