@@ -56,10 +56,9 @@ $B_Date=substr($B_Date,0,4);
     }
 
 $query = "INSERT INTO Secondary_Reg ( User_ID,Reg_Type,Sec_Type,Ser,Name,b_date,gender,Notes,Work,Married,Card_OK,End_Date,Employee,ins_user,ins_date ,End_Date_old)
-							values ( '$Text1','$Text2','3','$Text4','$Text6','$Text8','$Text9','$Text28','$Text30','$Text31','$Text32','$End_Date','$Text5000',$session_user_id,sysdate(),'$End_Date')";
+						values ( '$Text1','$Text2','3','$Text4','$Text6','$Text8','$Text9','$Text28','$Text30','$Text31','$Text32','$End_Date','$Text5000',$session_user_id,sysdate(),'$End_Date')";
 mysqli_query($con,$query) or  die (mysqli_error($con));
-
-    mysqli_close( $con);
+    mysqli_close($con);
     redirect("Secondary_Reg_View.php?user_id=$Text1&reg_type=$Text2&employee=$Text5000&ser=$Text4");
 
 ?>
