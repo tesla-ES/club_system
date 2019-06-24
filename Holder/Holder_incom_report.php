@@ -118,7 +118,7 @@ $num_rows=0;
 		echo "<td ALIGN=center > <FONT color='#000000'> $num_rows </td>";
         foreach ($rows as $data)
           {
-	          if($j<11){
+	          if($j<12){
 				   $sum_val[$j]+=$rows[$j];
 		           echo "<td ALIGN=center  > <FONT color='#000000'> $rows[$j]</td>";  
 	            }
