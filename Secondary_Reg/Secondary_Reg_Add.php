@@ -123,8 +123,6 @@ echo"<TD><FONT  size='4'  > «·≈”„  :</TD><TD align='right'><INPUT TYPE='TEXT' NA
 </TD>
 
 
-
-
 </table>
 <br>
 <INPUT type="image" name="b1"  src="../img/save.png">

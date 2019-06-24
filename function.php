@@ -82,7 +82,7 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
         case "Membership_type":
           echo "<select name='$sname' class='select_default'>";
             if($show_all){
-               echo"<option value='all'> ูู ุงูุงููุงุน  </option>";
+               echo"<option value='all'> ฿แ วแวไๆวฺ  </option>";
             }
             $result = mysqli_query($con,"SELECT Code,Name FROM reg_type ORDER BY Code");
             while($res=mysqli_fetch_array($result))
@@ -100,12 +100,13 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
             echo "<select name='$sname'  class='$class'>";
 
             if($show_all){
-                echo"<option value='all'> ูู ุงูุงููุงุน  </option>";
+                echo"<option value='all'> ฿แ วแวไๆวฺ  </option>";
             }
             if($for_print)
             {
-                echo"<option value='for_print' selected> ุงูู…ุทููุจ ุทุจุงุนุชู </option>";
+                echo"<option value='for_print' selected> วแใุแๆศ ุศวฺสๅ </option>";
             }
+
             $result = mysqli_query($con,"SELECT op_id,op_name FROM operation_type ORDER BY op_id");
             while($res=mysqli_fetch_array($result))
             {
@@ -120,7 +121,7 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
         case "employee_type":
             echo "<select name='$sname'  class='select_default'>";
             if($show_all){
-                echo"<option value='99'> ูู ุงูุงููุงุน  </option>";
+                echo"<option value='99'> ฿แ วแวไๆวฺ  </option>";
             }
             $result2 = mysqli_query($con,"SELECT Code,Name FROM employee_type ORDER BY Code");
             while($res=mysqli_fetch_array($result2))
@@ -136,7 +137,7 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
         case "payment_status":
             echo "<select name='$sname' class='select_default'>";
             if($show_all){
-                echo"<option value='all'> ูู ุงูุงููุงุน  </option>";
+                echo"<option value='all'> ฿แ วแวไๆวฺ  </option>";
             }
             $result = mysqli_query($con,"SELECT Code,Name FROM payment_status ORDER BY Code");
             while($res=mysqli_fetch_array($result))
@@ -156,22 +157,22 @@ function selectbox_write($sname,$show_all=false,$class="select_default",$for_pri
 
 function order_list(){?>
     <TR  align="middle">
-        <TH ><FONT size="4"  > ุงูุชุฑุชูุจ</TH><TD align="right">
+        <TH ><FONT size="4"  > วแสัสํศ</TH><TD align="right">
 
             <select name="order_arrange" class="select_default">";
-                <option value='User_ID'>ุฑูู… ุงูุนุถููู</option>
-                <option value='Name'>ุงุณู… ุงูุนุถู</option>
-                <option value='pay_Date'>ุชุงุฑูุฎ ุงูุฏูุน</option></select>
+                <option value='User_ID'>ัÞใ วแฺึๆํๅ</option>
+                <option value='Name'>วำใ วแฺึๆ</option>
+                <option value='pay_Date'>สวัํฮ วแฯÝฺ</option></select>
 
         </TD> </TR>
 <?php
 }
 function result_count(){?>
     <TR  align="middle">
-        <TH ><FONT size="4"  > ุนุฏุฏ ุงููุชุงุฆุฌ ูู ุงูุตูุญู  :</TH><TD align="right">
+        <TH ><FONT size="4"  > ฺฯฯ วแไสวฦฬ Ý์ วแีÝอๅ  :</TH><TD align="right">
 
             <select name="per_page" class="select_default">";
-                <option value='all'>ูู ุงููุชุงุฆุฌ</option>
+                <option value='all'>฿แ วแไสวฦฬ</option>
                 <option value=30>30</option>
                 <option value=50>50</option>
                 <option value=100>100</option>
@@ -189,20 +190,20 @@ function report_header(){
     <table style="width: 98%" cellspacing="1" cellpadding="1">
     <TR><TH style="text-align: left"><A HREF="javascript:window.print();window.close();"><IMG SRC="../img/print.gif" BORDER="0" width=20 height=20 class='no-print'></A></TH >
     <TH style="text-align: right">
-        ููุฆู ููุงู ุงูุณููุณ
+        ๅํฦๅ Þไวๅ วแำๆํำ
     </TH> </tr>
      <tr><th></th><th style="text-align: right">
-             ุงููุงุฏู ุงูุนุงู…
+             วแไวฯ์ วแฺวใ
          </th></tr>
         <tr><th></th><th style="text-align: right">
-ุดุฆูู ุงูุนุถููู
+ิฦๆไ วแฺึๆํๅ
            </th></tr>
 </table>
 <?php
 }
 function report_uncompleate_parameter(){
     echo "<div class='nots'>";
-    echo "ูุง ูู…ูู ุนุฑุถ ุงูุชูุฑูุฑ --- ุจุนุถ ุงูุจูุงูุงุช ุบูุฑ ู…ูุชู…ูู --- ู…ู ูุถูู ูู… ุจุนุฑุถ ุงูุชูุฑูุฑ ู…ู ุงูุฒุฑ ุงูู…ุฎุตุต  ";
+    echo "แว ํใ฿ไ ฺัึ วแสÞัํั --- ศฺึ วแศํวไวส Ûํั ใ฿สใแๅ --- ใไ Ýึแ฿ Þใ ศฺัึ วแสÞัํั ใไ วแาั วแใฮีี  ";
     echo "</div>";
 }
 
