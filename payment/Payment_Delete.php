@@ -42,7 +42,7 @@ if($cunt>0){
 
 	////////////////////////////////////////////////////////////
 	if($Group_ID==4){
-		$fin=mysqli_query($con,"delete from Payment where (User_ID='$User_ID'&& Reg_Type='$Reg_Type'&& Pay_Year='$Pay_Year'&& Receipt_No='$Receipt_No'&& Status='2') ")or die(mysqli_error($con));
+		$fin=mysqli_query($con,"delete from Payment where (User_ID='$User_ID'&& Reg_Type='$Reg_Type'&& Pay_Year='$Pay_Year'&& Receipt_No='$Receipt_No'&& Status ='2') ")or die(mysqli_error($con));
 	}else{
 		///// ÇáÇÓÊÑÏÇÏ ÈÏíáÇ Úä ÇáÍÐÝ
 		$fin=mysqli_query($con,"update Payment  set status = 1  ,upd_date = sysdate() , upd_user =$session_user_id where (User_ID='$User_ID'&& Reg_Type='$Reg_Type'&& Pay_Year='$Pay_Year'&& Receipt_No='$Receipt_No') ")or die(mysqli_error($con));
@@ -67,8 +67,6 @@ redirect(" Payment_list.php?start=0");
     $_SESSION["Session_ErroMessage"]= $Session_ErroMessage;
 	redirect("../login/Show_error.php");
 }
-
-
 
 ?>
 </FORM>

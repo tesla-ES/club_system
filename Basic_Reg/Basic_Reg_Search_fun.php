@@ -233,9 +233,12 @@ $max_pages=$record_count / $per_page;
 
 
 $i = 0;
+if($record_count>0){
+    echo "<div style='text-align: center' width='100%' > елЦгАЛ зоо гАгзжга  [ $record_count ]</div>";
+}
 if (($result))
 {
-  echo "<center><table width='100%' ><tr BGCOLOR='#7b7b7b'>";
+  echo "<table width='100%' ><tr BGCOLOR='#7b7b7b'>";
 
  if ($record_count>0)
   {

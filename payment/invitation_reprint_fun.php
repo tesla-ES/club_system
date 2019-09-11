@@ -23,7 +23,6 @@ if(!empty($User_ID)){
     $sql="update invit_print_log set reprint_user = $session_user , print= 0 , notes= '".$notes."' where id = $User_ID and type=$reg_type_code and year = $Pay_Year and receipt_no = $Receipt_No ";
     $update_card_printed = mysqli_query($con,$sql);
 
-
     if($update_card_printed){
         echo "Êã ÊäÔíØ ÅÚÇÏå ÇáØÈÇÚå";
     }
