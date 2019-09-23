@@ -58,6 +58,7 @@ if (($result) || (mysqli_errno($con) == 0)) {
         echo "</tr></thead><tbody>";
         //display the data
         $num_rows = $start;
+        $old_yaer=$from_year ;
         $sum_val=array(0,0,0,0);
         while ($rows = mysqli_fetch_array($result,MYSQLI_BOTH))
         {
@@ -65,6 +66,18 @@ if (($result) || (mysqli_errno($con) == 0)) {
             $num_rows++;
             $j=0;
 
+            if($old_yaer!=$rows[0])
+            {
+                if($old_yaer !=0 ){
+
+                }
+                $old_yaer=$rows[0];
+                echo "<tr>";
+                echo "<th colspan='2'> ≈Ã„«·Ì«  </th>  <th> $sum_val[2]</th>  <th> $sum_val[3]</th>";
+                echo "</tr>";
+                $sum_val[2]=0 ;
+                $sum_val[3]=0 ;
+            }
             foreach ($rows as $data)
             {
                 if($j<4){
@@ -73,7 +86,15 @@ if (($result) || (mysqli_errno($con) == 0)) {
                 }
                 $j++;
             }
+
+
+
         }
+
+        echo "<tr>";
+        echo "<th colspan='2'> ≈Ã„«·Ì«  </th>  <th> $sum_val[2]</th>  <th> $sum_val[3]</th>";
+        echo "</tr>";
+
 
         }else {
         echo "<tr><td colspan='" . ($i + 1) . "'>·« ÌÊÃœ ‰ «∆Ã !</td></tr>";
