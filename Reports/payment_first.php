@@ -18,12 +18,10 @@
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="#F2F2F2">
 
 <BR>
-
 <table>
 <thead>
 </thead>
 <tbody>
-
 
 <TR  align="middle">
 <TD align="right"><a href="payment.php">
@@ -40,7 +38,15 @@
 </TR>
 
 <TD align="right"><a href="latancy.php"> ﬁ—Ì— „ √Œ—«  </a></TD>
-</TR>	
+</TR>
+
+<TR  align="middle">
+    <TD align="right">
+        <a href="revenu.php">
+            ﬁ—Ì— «Ã„«·Ï «Ì—«œ ‘∆Ê‰ «·⁄÷ÊÌÂ
+        </a>
+    </TD>
+</TR>
 
 </tbody>
 
