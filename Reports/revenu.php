@@ -33,7 +33,7 @@ $start=isset($_REQUEST["start"])?$_REQUEST["start"]:0;
 <hr>
 <?php
 $sql="select payment.Pay_Year ,month(payment.Pay_Date) as month_num, count(payment.Receipt_No ) as cunt , sum(total) as total from payment 
- where Pay_Year between $from_year and $to_year  and Pay_Date is not null and month(payment.Pay_Date) between 1 and 12
+ where Pay_Year between $from_year and $to_year  and Pay_Date is not null and month(payment.Pay_Date) between 1 and 12 and status in (0,3)
  group by month_num,Pay_Year
  order by Pay_Year,month_num
  ";

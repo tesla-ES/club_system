@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/Secondary_Reg/Secondary_Reg_Update.php" line="82" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="تعديل">
-      <change afterPath="$PROJECT_DIR$/Reports/revenu.php" afterDir="false" />
+    <list default="true" id="7188b310-23ee-4c11-a006-eb08a86604fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/payment_first.php" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/payment_first.php" afterDir="false" />
     </list>
     <ignored path="Club_System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="all_payment_report_totals.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reports/all_payment_report_totals.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
+            <state relative-caret-position="476">
               <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
             </state>
           </provider>
@@ -48,8 +46,8 @@
       <file leaf-file-name="revenu.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Reports/revenu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="374">
+              <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,8 +55,8 @@
       <file leaf-file-name="payment_report.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reports/payment_report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="174" column="5" lean-forward="true" selection-start-line="155" selection-start-column="3" selection-end-line="174" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="178" column="30" lean-forward="true" selection-start-line="175" selection-start-column="4" selection-end-line="178" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -245,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="$invitation&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -349,7 +347,7 @@
       <workItem from="1568197490594" duration="3339000" />
       <workItem from="1568538422084" duration="1223000" />
       <workItem from="1568637774927" duration="255000" />
-      <workItem from="1569218586912" duration="4029000" />
+      <workItem from="1569218586912" duration="6599000" />
     </task>
     <task id="LOCAL-00001" summary="honor_more : update  insert statment to dont isert betch club as defult when return member&#10;&#10;Signed-off-by: ahmed abuzaid &lt;ahmed2002mo66@gmail.com&gt;">
       <created>1556549575043</created>
@@ -666,17 +664,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568200429587</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="اضافه تقرير اجمالى ايرادات شئون العضويه">
+      <created>1569223192852</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1569223192852</updated>
+    </task>
+    <task id="LOCAL-00047" summary="اضافه الاجمالى على تقرير اجمالى ايرادات شئون العضويه">
+      <created>1569225641546</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1569225641546</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412615000" />
+    <option name="totallyTimeSpent" value="415185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32626426" />
@@ -789,7 +801,9 @@
     <MESSAGE value="تصحيح الخطأ فى اعاده طباعه الدعوات و اللغه العربيه فى التقارير" />
     <MESSAGE value="اظهار تاريخ الايداع فى تقرير الحافظه" />
     <MESSAGE value="تعديل" />
-    <option name="LAST_COMMIT_MESSAGE" value="تعديل" />
+    <MESSAGE value="اضافه تقرير اجمالى ايرادات شئون العضويه" />
+    <MESSAGE value="اضافه الاجمالى على تقرير اجمالى ايرادات شئون العضويه" />
+    <option name="LAST_COMMIT_MESSAGE" value="اضافه الاجمالى على تقرير اجمالى ايرادات شئون العضويه" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1125,22 +1139,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/all_payment_report_totals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
+        <state relative-caret-position="476">
           <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/payment_report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="174" column="5" lean-forward="true" selection-start-line="155" selection-start-column="3" selection-end-line="174" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="178" column="30" lean-forward="true" selection-start-line="175" selection-start-column="4" selection-end-line="178" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Reports/revenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="374">
+          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
         </state>
       </provider>
     </entry>
